@@ -1,0 +1,68 @@
+{{ define "main" }}
+  <div class="container-fluid p-5">
+    <h2 class="mb-3">{{ .Title }}</h2>
+    <blockquote class="blockquote mb-5 text-muted">
+      <p class="mb-0">"{{ .Params.Quote }}"</p>
+      <footer class="blockquote-footer">{{ .Params.FullName }}</footer>
+    </blockquote>
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="character-card card border-0 shadow my-auto mx-auto">
+          {{ with (.Resources.GetMatch "profile.*") }}
+            <img src="{{ .RelPermalink }}" class="card-img-top" />
+          {{ else }}
+            <div class="card-body text-center text-primary d-flex">
+              <div class="my-auto mx-auto">
+                <h1>{{ .Params.initials }}</h1>
+              </div>
+            </div>
+          {{ end }}
+          <div class="p-3 text-center bg-light border-bottom">
+            {{ with .Params.PlayedBy }}
+            {{ . }} as
+            {{ end }}
+            {{ .Params.FullName }}
+          </div>
+          <div class="card-body">
+            <table class="table table-borderless table-sm">
+              <tbody>
+                <tr>
+                  <th>Full Name:</th>
+                  <td>{{ .Params.FullName }}</td>
+                </tr>
+                <tr>
+                  <th>Species:</th>
+                  <td>{{ .Params.Race }}</td>
+                </tr>
+                <tr>
+                  <th>Height:</th>
+                  <td>{{ .Params.CharHeight }}</td>
+                </tr>
+                <tr>
+                  <th>Weight:</th>
+                  <td>{{ .Params.CharWeight }}</td>
+                </tr>
+                <tr>
+                  <th>Hair:</th>
+                  <td>{{ .Params.Hair }}</td>
+                </tr>
+                <tr>
+                  <th>Eyes:</th>
+                  <td>{{ .Params.Eyes }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-9">
+        <h5 class="border-bottom pb-3 mb-3">Physical Description</h5>
+        {{ .Params.Description }}
+
+        <h5 class="border-bottom pb-3 mb-3 mt-5">Character Background</h5>
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+  
+{{ end }}

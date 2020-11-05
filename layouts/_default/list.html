@@ -1,0 +1,36 @@
+{{ define "main" }}
+<div class="screen"></div>
+<div class="container-fluid p-5">
+  <div class="mb-5">
+    <p>{{ .Content }}</p>
+  </div>
+  <div class="row mb-5">
+    {{ range sort (.Sections.ByTitle) }}
+      <div class="col-3">
+        <div class="card border-0 shadow mb-3 bg-secondary">
+          {{ with .Params.image }}
+            <img src="{{ . }}" class="card-img-top" alt="{{ $.Page.Title }}" />
+          {{ end }}
+          <div class="card-body text-center">
+            <a href="{{ lower .Name }}" class="text-light stretched-link">{{ .Title }}</a>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+  <div class="row">
+    {{ range sort (.RegularPages.ByTitle) }}
+    <div class="col-3">
+      <div class="card mb-3 bg-light">
+        {{ with .Params.image }}
+        <img src="{{ . }}" class="card-img-top" alt="{{ $.Page.Title }}" />
+        {{ end }}
+        <div class="card-body text-center">
+          <a href="{{ lower .Name }}" class="text-secondary stretched-link">{{ .Title }}</a>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

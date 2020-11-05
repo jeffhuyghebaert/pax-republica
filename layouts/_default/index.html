@@ -1,0 +1,103 @@
+{{ define "main" }}
+  <div class="main-header-image"></div>
+  <div class="home">
+    <div class="container-fluid px-5">
+      <div class="card border-0 bg-dark p-4 shadow intro-block">
+        <p class="text-white">
+        <strong>Pax Republica</strong> is a text-based, online roleplaying game called a MUSH (Multi-User Shared Hallucination)
+        set in the Star Wars Universe roughly 300 years before the events of Star Wars Episode IV.
+        </p>
+        <h5 class="text-muted">pax-republica.com:9999</h5>
+      </div>
+      
+      <div class="card-deck my-5">
+        <div class="card shadow border-0 text-center d-flex align-items-center">
+          <img src="/img/alderaan.jpg" alt="Alderaan" class="card-img-top" />
+          <div class="card-body">
+            It is a time of peace and prosperity in the Galaxy. The Galactic Republic spans known space, governing its member
+            worlds
+            from the seat of power on Coruscant, in Core Worlds. As technology improves and more systems
+            are discovered by intrepid hyperspace explorers, the Outer Rim promises treasures and wealth to those with the
+            tenacity
+            and wits to find them.
+          </div>
+        </div> 
+        <div class="card shadow border-0 text-center d-flex align-items-center">
+          <img src="/img/catacombs.jpeg" alt="Catacombs of Caldera" class="card-img-top" />
+          <div class="card-body">
+            The worlds of the Outer Rim are much different than those in the wealthy and comfortable Core Worlds. Life on the
+            fringes
+            of the Republic is hard, and only the tough, tenacious, and clever have what it takes to thrive. Fringe worlds can't
+            rely on
+            help from the Republic, and Fringers don't rely on anyone but themselves.
+          </div>
+        </div>
+        <div class="card shadow border-0 text-center d-flex align-items-center">
+          <img src="/img/jedi-temple-guard.jpeg" alt="Jedi" class="card-img-top" />
+          <div class="card-body">
+            The Jedi Order is at its peak, its Knights and Masters spread throughout the Galaxy working to maintain peace in the
+            Republic. Yet even now, something dark and dangerous stirs from beyond the Outer Rim, its presence felt only by the
+            strongest of Jedi, and yet its influence threatens to corrupt and destroy the peace both the Jedi and the Republic
+            have worked to build.
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center my-5">
+        <a href="/theme" class="btn btn-outline-secondary w-50 btn-lg text-uppercase px-5">Learn More</a>
+      </div>
+    </div>
+    <div class="container-fluid p-5 bg-light announcements">
+      <h3 class="pb-2">Announcements</h3>
+      {{ range first 5 (where .Site.RegularPages "Section" "announcements") }}
+        <div class="border-top py-5">
+          <p class="text-muted">{{ .Date }} by <b>{{ .Params.author }}</b></p>
+          <p class="lead">{{ .Title }}</p>
+          <p>{{ .Content }}</p>
+        </div>
+      {{ end }}
+    </div>
+    <div class="container-fluid p-5 bg-dark">
+      <div class="card-deck">
+        <div class="card border-0 bg-transparent p-0">
+          <div class="card-header text-white bg-transparent px-0 border-secondary"><b>Recent Game Files</b></div>
+          <div class="card-body text-light px-0">
+            <div class="row">
+              <div class="col-6">
+                Jedi Order
+              </div>
+              <div class="col-6 text-right">
+                Oct 25, 2020
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 bg-transparent p-0">
+          <div class="card-header text-white px-0 bg-transparent border-secondary"><b>New Character Profiles</b></div>
+          <div class="card-body text-light px-0">
+            <div class="row">
+              <div class="col-6">
+                Dace Keran
+              </div>
+              <div class="col-6 text-right">
+                Oct 25, 2020
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 bg-transparent p-0">
+          <div class="card-header text-white bg-transparent px-0 border-secondary"><b>Recent Logs</b></div>
+          <div class="card-body text-light px-0">
+            <div class="row">
+              <div class="col-6">
+                So you wanted a log, huh?
+              </div>
+              <div class="col-6 text-right">
+                Oct 25, 2020
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}

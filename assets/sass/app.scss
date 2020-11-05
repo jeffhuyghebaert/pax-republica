@@ -1,0 +1,46 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.main-header-image {
+  height: 300px;
+  width: 100%;
+  background: url('/img/coruscant.jpg');
+  background-size: cover;
+  background-position-y: -300px;
+}
+
+.intro-block {
+  margin-top: -4em;
+  font-size: 20px;
+}
+
+.announcements {
+  border-top: solid 3px #467393;
+  border-bottom: solid 6px #467393;
+}
+
+.screen {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.05;
+  background: url('/img/jedi-order.jpg') no-repeat center center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.profile-placeholder {
+  width: 200px;
+  height: 150px;
+}
+
+.character-cols {
+  column-count: 5;
+}
+
+@media screen and (max-width: 1080px) {
+  .main-header-image {
+    background-size: auto;
+  }
+}

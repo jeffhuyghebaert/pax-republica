@@ -9,6 +9,11 @@
     </div>
     {{ end }}
     <div class="{{ if $showSidebar }}col-md-10{{ end }} col">
+      <div class="mb-3 pb-1 border-bottom d-flex justify-content-between align-items-center">
+        <h3 class="m-0">{{ .Title }}</h3>
+        <span class="font-italic"><small>Updated {{ .Date.Format "Jan 2, 2006" }}</small></span>
+      </div>
+      
       {{ with .Content }}
         <div class="mb-5 border-bottom">
           {{ . }}

@@ -1,9 +1,9 @@
 {{ define "main" }}
   <div class="container-fluid p-5">
-    <h2 class="text-uppercase border-bottom pb-3">{{ .Title }}</h2>
-    <h3 class="mt-5 mb-3">Active Characters</h3>
-    <div class="card-columns character-cols">
+    <h4 class="mb-3 pb-3 border-bottom">Active Characters</h4>
+    <div class="row card-list">
       {{ range sort (where .Pages "Params.status" "active") "Title" }}
+      <div class="col-md-2">
         <div class="card border-0 shadow profile-card mb-3">
           {{ with (.Resources.GetMatch "headshot.*") }}
             {{ $image := .Resize "x150" }}
@@ -17,12 +17,14 @@
             <a href="{{ .Params.slug }}" class="stretched-link text-white">{{ .Params.fullname }}</a>
           </div>
         </div>
+      </div>
       {{ end }}
     </div>
 
-    <h3 class="mt-5">Retired Characters</h3>
-    <div class="card-columns character-cols">
+    <h4 class="mt-5 mb-3 pb-3 border-bottom">Retired Characters</h4>
+    <div class="row card-list">
       {{ range sort (where .Pages "Params.status" "retired") "Title" }}
+      <div class="col-md-2">
         <div class="card border-0 shadow profile-card mb-3">
           <div class="card-body p-2 d-flex">
             {{ with (.Resources.Match "headshot.*") }}
@@ -43,6 +45,7 @@
             <a href="{{ .Params.slug }}" class="stretched-link text-white">{{ .Params.fullname }}</a>
           </div>
         </div>
+      </div>
       {{ end }}
     </div>
   </div>

@@ -24,7 +24,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  opacity: 0.05;
+  opacity: 0.1;
   background: url('/img/jedi-order.jpg') no-repeat center center;
   background-size: cover;
   z-index: -1;
@@ -35,7 +35,27 @@
   height: 150px;
 }
 
-.character-cols {
+.translucent {
+  background-color: #ffffffaa;
+}
+
+.card-list {
+  .card {
+    transition: transform 0.25s ease;
+    a {
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+      z-index: 10;
+    }
+  }
+}
+
+.columns-5 {
   column-count: 5;
 }
 

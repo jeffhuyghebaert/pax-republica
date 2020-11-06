@@ -1,9 +1,25 @@
 {{ define "main" }}
 <div class="screen"></div>
-<div class="container-fluid mt-5">
+<div class="container-fluid p-5">
   <div class="row">
-    <div class="col-md-10 offset-md-1">
-      {{ .Content }}
+    {{ $showSidebar := and .Parent.Page (not .Parent.IsHome) }}
+    {{ if $showSidebar }}
+    <div class="col-md-2 d-none d-md-block">
+      {{- partial "sidebar.html" . }}
+    </div>
+    {{ end }}
+    <div class="{{ if $showSidebar }}col-md-10{{ end }} col">
+      <div class="card translucent border-white">
+        <div class="card-header bg-transparent clearfix">
+          <span class="m-0 font-weight-bold">{{ .Title }}</span>
+          <span class="float-right text-muted font-italic"><small>Updated {{ .Date.Format "Jan 2, 2006" }}</small></span>
+        </div>
+        <div class="card-body">
+          {{ .Content }}
+        </div>
+        
+      </div>
+      
     </div>
   </div>
 </div>

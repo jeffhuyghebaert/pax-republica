@@ -1,6 +1,6 @@
 ---
 title: "Chandrila"
-date: 2020-10-25T23:37:19-07:00
-draft: false
+date: 2020-11-06draft: false
 ---
 
+A small blue-green planet with calm seas and rolling hills, Chandrila has mild seasonal weather and rarely experiences dangerous environmental conditions. Its capital is Hanna City, a beautiful city located on the shores of the Silver Sea. A founder of the Republic and its very first agriworld, Chandrila is an idyllic paradise committed to democracy, peace, and harmony with nature. Chandrila’s gardens in the Gladean State Parks are beloved throughout the galaxy.

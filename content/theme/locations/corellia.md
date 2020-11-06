@@ -1,6 +1,11 @@
 ---
 title: "Corellia"
-date: 2020-10-25T23:28:56-07:00
+date: 2020-11-06
 draft: false
 ---
 
+Corellia is home to the Corellian Engineering Corporation, a popular shipbuilder that produces fast, customizable ships. Corellia has also achieved a measure of infamy for the wanderlust of its natives.
+Many have gone on to become heroes or outlaws, and sometimes both.
+
+Points of Interest
+Coronet City

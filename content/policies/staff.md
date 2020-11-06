@@ -1,7 +1,7 @@
 ---
 title: "Staff"
 date: 2020-10-25T23:32:31-07:00
-draft: true
+draft: false
 ---
 
 Our game staff is here to help players as much as reasonably possible, with regard to theme, plots, and day-to-day administrative matters. Staff is responsible for managing the overall direction of the game, as well as handling any issues that may arise, from code to balance to problems between players.

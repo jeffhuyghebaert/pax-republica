@@ -1,7 +1,7 @@
 ---
 title: "Winning"
 date: 2020-10-25T23:32:35-07:00
-draft: true
+draft: false
 ---
 
 _This file will need updating to reflect the High Republic era, not the Imperial era_

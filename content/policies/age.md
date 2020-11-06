@@ -1,7 +1,7 @@
 ---
 title: "Age"
 date: 2020-10-25T23:31:32-07:00
-draft: true
+draft: false
 ---
 
 Pax Republica contains adult themes and situation, including violence, language, sexual content. If you are under the age of 18, this game is probably not for you.

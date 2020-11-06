@@ -1,7 +1,7 @@
 ---
 title: "Atmosphere"
 date: 2020-11-03T22:51:25-08:00
-draft: true
+draft: false
 ---
 
 Pax Republica takes a somewhat darker view of the Star Wars universe, despite our timeline being set at the height of the Republic and the Jedi Order. While this is an era of relative peace and prosperity in the Galaxy, if one looks beyond the superficial it becomes obvious that not everything is sugar and spice.

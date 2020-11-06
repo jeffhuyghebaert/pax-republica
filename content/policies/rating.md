@@ -1,7 +1,7 @@
 ---
 title: "Rating"
 date: 2020-10-25T23:32:16-07:00
-draft: true
+draft: false
 ---
 
 Pax Republica is an R-rated game, intended for adult audiences. Younger viewers, or those with delicate sensibilities may be offended. This game is not for those people. This game is intended to be gritty and violent. In roleplay, you should expect to see strong language, adult themes, sexuality, and violence beyond what is portrayed in the films. We do ask, however, that roleplay logs be edited to remove explicit sexual activity prior to posting.

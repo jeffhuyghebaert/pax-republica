@@ -1,7 +1,7 @@
 ---
 title: "Restricted"
 date: 2020-11-02
-draft: true
+draft: false
 ---
 
 Restricted concepts may be apped under the following conditions:

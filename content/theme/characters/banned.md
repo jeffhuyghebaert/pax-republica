@@ -1,7 +1,7 @@
 ---
 title: "Banned"
 date: 2020-11-02
-draft: true
+draft: false
 ---
 
 The following concepts are banned, and are not appable in any way, shape or form on Pax Republica.

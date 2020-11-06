@@ -1,7 +1,7 @@
 ---
 title: "Plots"
 date: 2020-10-25T23:32:12-07:00
-draft: true
+draft: false
 ---
 
 While staff is responsible for the overall direction of the game, and the over-arcing plot driving the theme forward, players are encouraged to plan and run their own stories, plots, and adventures. If you have an idea, we'll do everything we can to help you bring it to fruition, within the practical scope of the game's theme. We'll work with you to get your idea polished, if need be, or re-worked into a form that is suitable for the game.

@@ -1,7 +1,7 @@
 ---
 title: "Consent"
 date: 2020-10-25T23:31:53-07:00
-draft: true
+draft: false
 ---
 
 Pax Republica is a consent-based game, and players are required to respect the consent of other players.

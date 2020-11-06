@@ -21,7 +21,7 @@
           <div class="col-md-3">
             <div class="card border-0 bg-secondary mb-3">
               {{ with .Params.image }}
-              <img src="{{ . }}" class="card-img-top" alt="{{ $.Page.Title }}" />
+              <img src="{{ . }}" class="card-img-top border-bottom" alt="{{ $.Page.Title }}" />
               {{ end }}
               <div class="card-body text-center">
                 <a href="{{ lower .Name }}" class="text-white font-weight-bold stretched-link">{{ .Title }}</a>
@@ -44,10 +44,10 @@
           <div class="col-md-3">
             <div class="card border-secondary mb-3">
               {{ with .Params.image }}
-              <img src="{{ . }}" class="card-img-top" alt="{{ $.Page.Title }}" />
+              <img src="{{ . }}" class="card-img-top border-bottom" alt="{{ $.Page.Title }}" />
               {{ end }}
               <div class="card-body font-weight-bold text-center">
-                <a href="{{ lower .BaseFileName }}" class="text-secondary stretched-link">{{ .Title }}</a>
+                <a href="{{ lower .File.BaseFileName }}" class="text-secondary stretched-link">{{ .Title }}</a>
               </div>
             </div>
           </div>

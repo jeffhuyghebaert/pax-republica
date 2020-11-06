@@ -1,23 +1,37 @@
 {{ define "main" }}
+<div class="screen"></div>
   <div class="container-fluid p-5">
     <h2 class="mb-3">{{ .Title }}</h2>
-    <blockquote class="blockquote mb-5 text-muted">
+    <blockquote class="blockquote mb-4">
       <p class="mb-0">"{{ .Params.Quote }}"</p>
       <footer class="blockquote-footer">{{ .Params.FullName }}</footer>
     </blockquote>
     <div class="row">
-      <div class="col-sm-3">
-        <div class="character-card card border-0 shadow my-auto mx-auto">
-          {{ with (.Resources.GetMatch "profile.*") }}
-            <img src="{{ .RelPermalink }}" class="card-img-top" />
-          {{ else }}
-            <div class="card-body text-center text-primary d-flex">
-              <div class="my-auto mx-auto">
-                <h1>{{ .Params.initials }}</h1>
-              </div>
-            </div>
+      <div class="col-sm-9">
+        <div class="card translucent border-white p-3">
+          {{ with .Params.Description }}
+            <h6 class="border-bottom pb-2 mb-3">Physical Description</h6>
+            {{ . }}
           {{ end }}
-          <div class="p-3 text-center bg-light border-bottom">
+
+          {{ with .Content }}
+            <h6 class="border-bottom pb-2 mb-3 mt-5">Character Background</h6>
+            {{ . }}
+          {{ end }}
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="character-card card border-0 shadow my-auto mx-auto sticky-top">
+          {{ with (.Resources.GetMatch "profile.*") }}
+          <img src="{{ .RelPermalink }}" class="card-img-top" />
+          {{ else }}
+          <div class="card-body text-center text-primary d-flex">
+            <div class="my-auto mx-auto">
+              <h1>{{ .Params.initials }}</h1>
+            </div>
+          </div>
+          {{ end }}
+          <div class="p-3 text-center bg-light border-bottom border-top">
             {{ with .Params.PlayedBy }}
             {{ . }} as
             {{ end }}
@@ -54,13 +68,6 @@
             </table>
           </div>
         </div>
-      </div>
-      <div class="col-sm-9">
-        <h5 class="border-bottom pb-3 mb-3">Physical Description</h5>
-        {{ .Params.Description }}
-
-        <h5 class="border-bottom pb-3 mb-3 mt-5">Character Background</h5>
-        {{ .Content }}
       </div>
     </div>
   </div>

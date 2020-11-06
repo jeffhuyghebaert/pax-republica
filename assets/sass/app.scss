@@ -55,8 +55,13 @@
   }
 }
 
-.columns-5 {
-  column-count: 5;
+.sidebar {
+  .list-group-item {
+    padding: 0.5rem 0.75rem;
+  }
+  a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width: 1080px) {

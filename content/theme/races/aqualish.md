@@ -5,6 +5,11 @@ draft: false
 image: /img/races/aqualish.jpeg
 layout: race
 
+info:
+  classification: Amphibian
+  homeworld: Ando
+  native language: Ando
+
 stats:
   awareness:
     min: 2D+0

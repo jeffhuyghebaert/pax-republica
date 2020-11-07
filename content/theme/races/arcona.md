@@ -5,6 +5,11 @@ draft: false
 image: /img/races/arcona.png
 layout: race
 
+info:
+  classification: Humanoid
+  homeworld: Cona
+  native language: Arcona
+
 stats:
   awareness:
     min: 1D+0

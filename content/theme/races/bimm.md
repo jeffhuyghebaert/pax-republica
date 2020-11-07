@@ -4,6 +4,11 @@ date: 2020-10-25T23:34:52-07:00
 draft: false
 layout: race
 
+info:
+  classification: Humanoid
+  homeworld: Bimmisaari
+  native language: Bimmini
+
 stats:
   awareness:
     min: 1D+2

@@ -26,19 +26,35 @@
               {{ end }}
             </div>
             <div class="col-md-4">
-              <div class="card border-0 shadow">
+              <div class="card border-0 shadow race-info">
                 {{ with .Params.image }}
                 <img src="{{ . }}" class="card-img-top" alt="{{ $.Page.Title }}" />
                 {{ end }}
                 <div class="card-header text-center bg-secondary text-light border-0"><b>{{ .Title }}</b></div>
+                {{ with .Params.info }}
+                <div class="card-body">
+                  {{ range $key, $value := . }}
+                  <div class="row">
+                    <div class="col text-capitalize">
+                      {{ $key }}:
+                    </div>
+                    <div class="col">
+                      {{ $value }}
+                    </div>
+                  </div>
+                  {{ end }}
+                </div>
+                {{ end }}
+                {{ with .Params.stats }}
+                <div class="card-header border-top text-center bg-light">Default Attributes</div>
                 <div class="card-body">
                   <table class="table table-borderless table-sm">
                     <thead class="border-bottom">
-                      <td>Attributes</td>
+                      <td></td>
                       <td class="text-right">Min</td>
                       <td class="text-right">Max</td>
                     </thead>
-                    {{ range $key, $value := .Params.Stats }}
+                    {{ range $key, $value := . }}
                     <tr>
                       <td><b>{{ humanize $key }}</b></td>
                       <td class="text-right">{{ $value.min }}</td>
@@ -47,6 +63,7 @@
                     {{ end }}
                   </table>
                 </div>
+                {{ end }}
               </div>
             </div>
           </div>

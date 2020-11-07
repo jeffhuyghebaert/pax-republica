@@ -5,6 +5,12 @@ draft: false
 image: /img/races/gand.jpeg
 layout: race
 
+info:
+  homeworld: Gand
+  default language: Gand
+  classification: Insectoid
+  
+
 stats:
   awareness:
     min: 1D+0

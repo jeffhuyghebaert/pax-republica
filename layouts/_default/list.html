@@ -47,7 +47,7 @@
         <div class="row">
           {{ range sort . }}
           <div class="col-md-3">
-            <div class="card border-secondary mb-3">
+            <div class="card border mb-3">
               {{ with .Params.image }}
               <img src="{{ . }}" class="card-img-top border-bottom" alt="{{ $.Page.Title }}" />
               {{ end }}

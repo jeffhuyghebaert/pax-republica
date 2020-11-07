@@ -12,7 +12,7 @@
     {{ partial "site-header.html" . }}
     {{ block "main" . }}
     {{ end }}
-    </div>
+    {{ partial "site-footer.html" . }}
     {{ $js := resources.Get "js/app.js" | js.Build "app.js" }}
     {{ with $js }}
       <script type="text/javascript" src="{{ .RelPermalink }}"></script>

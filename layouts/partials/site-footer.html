@@ -1,5 +1,49 @@
-<div class="mt-auto bg-light border-top py-3">
-  <div class="container-fluid px-5">
-    Footer
+<div class="container-fluid mt-auto px-5 py-2 bg-dark">
+  <div class="card-deck">
+    <div class="card border-0 bg-transparent p-0">
+      <div class="card-header text-white bg-transparent px-0 border-secondary"><b>Recent Game Files</b></div>
+      <div class="card-body text-light px-0">
+        {{ range $key, $value := first 5 (where .Site.Pages "Section" (or "theme" "systems" "policies")).ByDate.Reverse }}
+        <div class="row">
+          <div class="col-6">
+            <a href="{{ .Permalink }}" class="font-weight-bold text-white">{{ .Title }}</a>
+          </div>
+          <div class="col-6 text-right">
+            {{ .Date.Format "Jan 2, 2006" }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    <div class="card border-0 bg-transparent p-0">
+      <div class="card-header text-white px-0 bg-transparent border-secondary"><b>New Character Profiles</b></div>
+      <div class="card-body text-light px-0">
+        {{ range $key, $value := first 5 (where .Site.RegularPages "Section" "characters").ByDate.Reverse }}
+        <div class="row">
+          <div class="col-6">
+            <a href="{{ .Permalink }}" class="font-weight-bold text-white">{{ .Title }}</a>
+          </div>
+          <div class="col-6 text-right">
+            {{ .Date.Format "Jan 2, 2006" }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    <div class="card border-0 bg-transparent p-0">
+      <div class="card-header text-white bg-transparent px-0 border-secondary"><b>Recent Logs</b></div>
+      <div class="card-body text-light px-0">
+        {{ range $key, $value := first 5 (where .Site.RegularPages "Section" "logs").ByDate.Reverse }}
+        <div class="row">
+          <div class="col-6">
+            <a href="{{ .Permalink }}" class="font-weight-bold text-white">{{ .Title }}</a>
+          </div>
+          <div class="col-6 text-right">
+            {{ .Date.Format "Jan 2, 2006" }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
   </div>
 </div>

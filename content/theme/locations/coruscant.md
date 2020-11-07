@@ -2,6 +2,7 @@
 title: "Coruscant"
 date: 2020-11-06
 draft: false
+image: /img/locations/coruscant.png
 ---
 
 ###### Orbit

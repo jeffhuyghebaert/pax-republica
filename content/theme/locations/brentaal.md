@@ -1,7 +1,8 @@
 ---
-title: "Brentaal"
+title: "Brentaal IV"
 date: 2020-11-06
 draft: false
+image: /img/locations/brentaal.jpg
 ---
 
 Brentaal IV is located at the intersection of the Hydian Way and the Perlemian Trade Route, which

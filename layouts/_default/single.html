@@ -4,11 +4,11 @@
   <div class="row">
     {{ $showSidebar := and .Parent.Page (not .Parent.IsHome) }}
     {{ if $showSidebar }}
-    <div class="col-md-2 d-none d-md-block">
+    <div class="col-md-3 col-lg-2 d-md-block order-2 order-md-1 mt-3 mt-md-0">
       {{- partial "sidebar.html" . }}
     </div>
     {{ end }}
-    <div class="{{ if $showSidebar }}col-md-10{{ end }} col">
+    <div class="{{ if $showSidebar }}col-md-9 col-lg-10{{ end }} col order-1 order-md-2">
       <div class="card translucent border-white">
         <div class="card-header bg-transparent">
           <span class="m-0 font-weight-bold">{{ .Title }}</span>

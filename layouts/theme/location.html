@@ -1,0 +1,126 @@
+{{ define "main" }}
+<div class="screen"></div>
+<div class="container-fluid p-5">
+  <div class="row">
+    <div class="col-md-2 d-none d-md-block">
+      {{- partial "sidebar.html" . }}
+    </div>
+    <div class="col-md-10 col">
+      <div class="card translucent border-white">
+        <div class="card-header bg-transparent">
+          <span class="m-0 font-weight-bold">{{ .Title }}</span>
+          <span class="float-right text-muted font-italic">
+            <small>Updated {{ .Date.Format "Jan 2, 2006" }}</small>
+          </span>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="mb-5">
+                {{ .Content }}
+              </div>
+              <div class="card w-50 mb-5">
+                <div class="card-header">
+                  Table of Contents
+                </div>
+                <div class="card-body">
+                  <ol class="pl-4 mb-0">
+                  {{ range .Pages }}
+                    <li class="list-item">
+                      <a href="#{{ .File.BaseFileName }}">{{ .Name }}</a>
+                    </li>
+                  {{ end }}
+                  </ol>
+                </div>
+              </div>
+              {{ with .GetPage "system" }}
+              <div class="mb-5" id="system">
+                <h5 class="border-bottom pb-2">Star System</h5>
+                {{ .Content }}
+              </div>
+              {{ end }}
+              {{ with .GetPage "history" }}
+              <div class="mb-5" id="history">
+                <h5 class="border-bottom pb-2">History</h5>
+                {{ .Content }}
+              </div>
+              {{ end }}
+              {{ with .GetPage "geography" }}
+                <div class="mb-5" id="geography">
+                  <h5 class="border-bottom pb-2">Geography</h5>
+                  {{ .Content }}
+                </div>
+              {{ end }}
+              {{ with .GetPage "points-of-interest" }}
+              <div class="mb-5" id="points-of-interest">
+                <h5 class="border-bottom pb-2">Points of Interest</h5>
+                {{ .Content }}
+              </div>
+              {{ end }}
+            </div>
+            <div class="col-md-4">
+              <div class="card border-0 shadow info-card">
+                {{ with .Params.image }}
+                <img src="{{ . }}" class="card-img-top" alt="{{ $.Page.Title }}" />
+                {{ end }}
+                <div class="card-header text-center bg-secondary text-light border-0"><b>{{ .Title }}</b></div>
+                {{ with .Params.system }}
+                <div class="card-header text-center bg-light border-bottom p-1">Star System</div>
+                <div class="card-body">
+                  {{ with .Name }}
+                    <div class="row mb-2">
+                      <div class="col-4 text-capitalize">Name:</div>
+                      <div class="col-8 my-auto">{{ . }}</div>
+                    </div>
+                  {{ end }}
+                  {{ with .Sector }}
+                  <div class="row mb-2">
+                    <div class="col-4 text-capitalize">Sector:</div>
+                    <div class="col-8 my-auto">{{ . }}</div>
+                  </div>
+                  {{ end }}
+                  {{ with .Star }}
+                  <div class="row mb-2">
+                    <div class="col-4 text-capitalize">Primary Star:</div>
+                    <div class="col-8 my-auto">{{ . }}</div>
+                  </div>
+                  {{ end }}
+                  {{ with .Trade_routes }}
+                  <div class="row mb-1">
+                    <div class="col-4 text-capitalize">Trade Routes:</div>
+                    <div class="col-8 my-auto">
+                      {{ range . }}
+                        <p class="m-0">{{ . }}</p>
+                      {{ end }}
+                    </div>
+                  </div>
+                  {{ end }}
+                </div>
+                {{ end }}
+                {{ with .Params.species }}
+                  <div class="card-header text-center bg-light border-top border-bottom p-1">Native Species</div>
+                  <div class="card-body">
+                    <div class="row mb-2">
+                      <div class="col-4 text-capitalize">Native Species:</div>
+                      <div class="col-8 my-auto">{{ .name }}</div>
+                    </div>
+                    <div class="row mb-2">
+                      <div class="col-4 text-capitalize">Primary Language:</div>
+                      <div class="col-8 my-auto">{{ .language }}</div>
+                    </div>
+                  </div>
+                {{ end }}
+                {{ with .Params.affiliation }}
+                  <div class="card-header border-top border-bottom text-center p-1">
+                    Affiliation: {{ . }}
+                  </div>
+                {{ end }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

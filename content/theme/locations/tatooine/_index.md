@@ -3,6 +3,7 @@ title: "Tatooine"
 date: 2020-11-06
 draft: false
 image: /img/locations/tatooine.png
+layout: location
 ---
 
 Tatooine is located in the Outer Rim. It is orbited by three moons: Ghomrassen, Guermessa and Chenini.[3] Long ago, Tatooine was covered in oceans and rainforests, but for unknown reasons, it became a hot desert world.[2] Tatooine orbits twin suns, Tatoo I and Tatoo II.[3][1] The whole planet is covered in harsh deserts, and only a small part of its northern hemisphere can sustain intelligent life.[32] The landscape was covered with sand dunes, mountains, and canyons, which made traversing the planet very difficult. Due to the absence of surface water, those who lived on Tatooine had to draw moisture through the dry air.[33]

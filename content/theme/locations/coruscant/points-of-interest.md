@@ -1,15 +1,12 @@
 ---
-title: "Coruscant"
-date: 2020-11-06
+title: "Points of Interest"
+date: 2020-11-08T18:33:29-08:00
 draft: false
-image: /img/locations/coruscant.png
+weight: 4
 ---
 
-###### Orbit
-Also known as “Triple Zero,” in reference to its galactic coordinates, Coruscant has always been considered the center of the galaxy. It is home to the High Chancellor and the central meeting place of the Galactic Republic Senate, as well as the main Jedi Temple and base of operations. The planet is a never-ending cityscape, with kilometers-tall skyscrapers dominating the skyline.
-
 ##### Surface – Upper City
-###### (Land on) Federal District
+###### Federal District
 The Federal District, also called the Senate District or Legislative District and colloquially as the Core of Coruscant or Core Square, is the central government district here. It is the location of the Senate Rotunda and Plaza along with the Avenue of the Core Founders, and the Jedi Temple. Other notable locations include the colossal residential complex 500 Republica, the Republic Center for Military Operations, and the Galactic Courts of Justice.
 
 ###### 500 Republica
@@ -18,7 +15,7 @@ The Federal District, also called the Senate District or Legislative District an
 ###### Galactic Courts of Justice
 The Galactic Courts of Justice Building, usually referred to just as the Courts Building or Courts of Justice Building, houses the Galactic Republic Supreme Court as well as the lesser Regional Courts.
 
-
+---
 ##### Jedi Temple
 ###### Atrium
 The Temple is the central hub of all Jedi activity both on the Core World Coruscant and across the galaxy. It serves as a monastery for Jedi Knights and Jedi Masters as well as a school for the training of Padawans and initiates.
@@ -46,7 +43,9 @@ The High Council Tower is the meeting place of the Jedi High Council, who posses
 ###### Great Assembly Room
 ###### Medical Bay
 
-##### Senate Plaza
+---
+##### Senate
+###### Senate Plaza
 Surrounding the Senate Rotunda is Senate Plaza, a large open area where massive statues dedicated to the founding members of the Republic stand along the Avenue of the Core Founders, a broad walkway that leads straight up to the main entrance of the Rotunda. Flags representing various Republic worlds also line the Avenue, flying gracefully in the climate-controlled wind.
 
 ###### Senate Rotunda
@@ -61,8 +60,11 @@ The Chancellery Secretariat is a suite of the Galactic Republic's Office of the 
 ###### Republic Executive Building
 The executive building is a large, multi-tiered, dome-shaped structure. It houses the private offices of members of the Galactic Senate, as well as the office of the Supreme Chancellor. A number of landing bays are also located on the upper levels of the facility.
 
-###### Upper Uscru District
+---
+##### Upper Uscru District
 ###### Galaxies Opera House
+
+---
 ##### Lower City
 ###### Lower Uscru District
 ###### Entertainment District

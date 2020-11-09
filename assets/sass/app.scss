@@ -61,6 +61,15 @@
   .list-group-item {
     padding: 0.5rem 0.75rem;
   }
+  .sidebar-folder {
+    background-color: #aaa;
+    color: #fff;
+    &.active {
+      background-color: #777;
+      border: none;
+      font-weight: bold;
+    }
+  }
   a {
     font-size: 13px;
   }

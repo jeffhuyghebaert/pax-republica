@@ -23,7 +23,7 @@
       {{ with .Sections.ByTitle }}
         <div class="row mb-5">
           {{ range sort . }}
-          <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
             <div class="card border-0 bg-secondary mb-3">
               {{ with .Params.image }}
               <img src="{{ . }}" class="card-img-top border-bottom" alt="{{ $.Page.Title }}" />
@@ -46,7 +46,7 @@
       {{ with .RegularPages.ByTitle }}
         <div class="row">
           {{ range sort . }}
-          <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
             <div class="card border mb-3">
               {{ with .Params.image }}
               <img src="{{ . }}" class="card-img-top border-bottom" alt="{{ $.Page.Title }}" />

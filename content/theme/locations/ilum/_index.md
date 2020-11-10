@@ -2,6 +2,7 @@
 title: "Ilum"
 date: 2020-11-09T19:52:24-08:00
 draft: false
+layout: location
 image: /img/locations/ilum.png
 ---
 Situated in the eponymous star system located in a part of the Unknown Regions known as the 7G sector, Ilum is smaller than a dwarf planet. However, due to its kyber crystalline core and a frigid climate, it is considered a planet despite its diminutive size. The planet is inhospitable to most species due to its icy terrain, however it is populated by some non-sentient animals.

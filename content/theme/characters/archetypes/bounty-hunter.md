@@ -4,37 +4,35 @@ date: 2019-12-20T23:40:35-08:00
 draft: false
 layout: archetype
 attributes:
-  awareness: 3D+0
-  coordination: 3D+0
-  knowledge: 3D+0
-  physique: 3D+0
-  presence: 3D+0
-  reflexes: 3D+0
+  awareness: 11
+  coordination: 11
+  knowledge: 7
+  physique: 9
+  presence: 7
+  reflex: 9
 
 skills:
   awareness:
-    sneak: 4D+0
-    hide: 4D+0
-    track: 4D+0
-    search: 4D+0
+    track: 2
+    search: 1
   coordination:
-    shoot: 4D+0
-    pilot: 4D+0
+    shoot: 4
+    pilot: 1
   knowledge:
-    investigate: 4D+0
-    medicine: 4D+0
-    streetwise: 4D+0
+    investigate: 4
+    medicine: 2
+    streetwise: 5
   physique:
-    strength: 4D+0
-    toughness: 4D+0
-    stamina: 4D+0
+    strength: 2
+    toughness: 3
+    stamina: 2
   presence:
-    willpower: 4D+0
-    intimidate: 4D+0
-  reflexes:
-    brawl: 4D+0
-    dodge: 4D+0
-    melee: 4D+0
+    willpower: 
+    intimidate: 2
+  reflex:
+    brawl: 3
+    dodge: 2
+    melee: 3
 ---
 
 Smugglers dropping their cargo at the first sign of Imperial trouble? Gamblers not paying their debts? Time to call in a Bounty Hunter. These are the beings who can find the beings that don't want to be found, and bring them back to you alive so you can do whatever you need to do ~~to~~ with them.

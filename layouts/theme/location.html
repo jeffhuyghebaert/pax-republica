@@ -118,6 +118,13 @@
               </div>
             </div>
           </div>
+          {{ range .Resources.ByType "image" }}
+          <div class="row">
+            <div class="col-4">
+              <a href="{{ .Permalink | absURL }}"><img class="img-thumbnail" src="{{ .Permalink }}" /></a>
+            </div>
+          </div>
+          {{ end }}
         </div>
       </div>
     </div>

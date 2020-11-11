@@ -1,0 +1,70 @@
+{{ define "main" }}
+<div class="screen"></div>
+<div class="container-fluid p-5">
+  <div class="row">
+    <div class="col-md-2 d-none d-md-block">
+      {{- partial "sidebar.html" . }}
+    </div>
+    <div class="col-md-10 col">
+      <div class="card translucent border-white">
+        <div class="card-header bg-transparent">
+          <span class="m-0 font-weight-bold">{{ .Title }}</span>
+          <span class="float-right text-muted font-italic"><small>Updated
+              {{ .Date.Format "Jan 2, 2006" }}</small></span>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="mb-5">
+                {{ .Content }}
+              </div>
+            </div>
+            <div class="col-md-7">
+              <div class="card">
+                <div class="card-header text-center font-weight-bold">Suggested {{ .Title }} Skills</div>
+                <div class="row no-gutters">
+                  {{ range $attr, $attrVal := .Params.attributes }}
+                  <div class="col-4 pb-3">
+                    <div class="clearfix p-2 bg-dark text-light">
+                      <div class="float-left"><u>{{ $attr | humanize }}</u></div>
+                      <div class="float-right">{{ div $attrVal 3 }}D+{{ mod $attrVal 3 }}</div>
+                    </div>
+                    {{ range $key, $value := index $.Params.skills $attr }}
+                    {{ if $value }}
+                      {{ $skillVal := add $attrVal $value }}
+                      <div class="clearfix px-2 m-1">
+                        <div class="float-left">{{ $key | humanize }}</div>
+                        <div class="float-right">{{ div $skillVal 3 }}D+{{ mod $skillVal 3 }}</div>
+                      </div>
+                    {{ end }}
+                    {{ end }}
+                  </div>
+                  {{ end }}
+                </div>
+                <div class="card-footer">
+                  <div class="d-flex justify-content-between">
+                    {{ $attrDice := 0 }}
+                    {{ $skillDice := 0 }}
+                    {{ range $key, $value := .Params.attributes }}
+                      {{ $attrDice = add $attrDice $value }}
+                    {{ end }}
+                    {{ range $attr, $skills := .Params.skills }}
+                      {{ range $skill, $value := $skills }}
+                      {{ if $value }}
+                        {{ $skillDice = add $skillDice $value }}
+                      {{ end }}
+                      {{ end }}
+                    {{ end }}
+                    <div>Total Attribute Dice: {{ div $attrDice 3 }}D+{{ mod $attrDice 3 }}</div>
+                    <div>Total Skill Dice: {{ div $skillDice 3 }}D+{{ mod $skillDice 3 }}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

@@ -14,9 +14,9 @@ The Dark Side offers power. At the GM's discretion, a Force User experiencing an
 
 If the Jedi fails this second resistance roll, the skill bonus remains active, and the Jedi *must* perform the action desired by the Dark Side, and gains a Dark Side Point for doing so.
 
-As the Jedi's Dark Side Points increase, these offers of power become less frequent, relying on greater evils to curry the favour of the Dark Side, however with greater evils come greater rewards and bonuses. For each Dark Side Point a Jedi has, they gain a +0D+1 bonus to Force skills used in the service of the Dark Side, whether they are specifically Dark Side powers or not.  The Jedi also suffers a -0D+1 penalty to any Force skill used for good.
+As the Jedi's Dark Side Points increase, these offers of power become less frequent, relying on greater evils to curry the favour of the Dark Side, however with greater evils come greater rewards and bonuses. For each Dark Side Point a Jedi has, they gain a +1D+0 bonus to Force skills used in the service of the Dark Side, whether they are specifically Dark Side powers or not.  The Jedi also suffers a -0D+1 penalty to any Force skill used for good.
 
-Each time a Jedi uses a Force skill for evil, this bonus is applied, and the Jedi gains and additional Dark Side Point, up to six Dark Side Points. The Jedi may attempt to cleanse their Dark Side Points by [Atonement](/systems/chargen/force/atonement).
+Each time a Jedi uses a Force skill for evil, this bonus is applied, and the Jedi gains an additional Dark Side Point, up to six Dark Side Points. The Jedi may attempt to cleanse their Dark Side Points by [Atonement](/systems/chargen/force/atonement).
 
 Once a Jedi has six Dark Side Points, Dark Side Points are only awarded for particularly vile deeds, at the GM's discretion. However, every time the Jedi uses a Force ability, they must roll Willpower vs the total number of Dark Side Points in dice to prevent being consumed by the Dark Side of the Force.
 

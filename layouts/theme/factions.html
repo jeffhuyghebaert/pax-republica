@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="screen"></div>
+<div class="container-fluid p-5">
+  <div class="row">
+    <div class="col-md-2 d-none d-md-block">
+      {{- partial "sidebar.html" . }}
+    </div>
+    <div class="col-md-10 col">
+      {{ with .Sections.ByTitle }}
+        {{ range . }}
+        <div class="card mb-5 border-0 bg-transparent">
+          <div class="media">
+            <img src="{{ .Params.image }}" class="img-thumbnail my-auto mr-3" height="100%" width="35%" alt="{{ .Title }}" />
+            <div class="media-body p-2 my-auto">
+              <h5 class="card-title">{{ .Title }}</h5>
+              {{ .Params.summary }}
+              <div class="mt-3">
+                <a href="{{ .Permalink }}" class="stretched-link btn btn-primary btn-sm">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

@@ -1,6 +1,6 @@
 ---
 title: "Jedi Order"
-date: 2020-11-06
+date: 2020-11-10T21:07:27-08:00
 draft: false
 ---
 

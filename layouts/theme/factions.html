@@ -10,10 +10,13 @@
         {{ range . }}
         <div class="card mb-5 border-0 bg-transparent">
           <div class="media">
-            <img src="{{ .Params.image }}" class="img-thumbnail my-auto mr-3" height="100%" width="35%" alt="{{ .Title }}" />
-            <div class="media-body p-2 my-auto">
+            <img src="{{ .Params.image }}" class="img-thumbnail mr-3" height="100%" width="35%" alt="{{ .Title }}" />
+            <div class="media-body p-2">
               <h5 class="card-title">{{ .Title }}</h5>
               {{ .Params.summary }}
+              {{ with .Params.npc }}
+              <p class="mt-3">This is an NPC faction is not available for players to join, however they may interact with it for plot purposes.</p>
+              {{ end }}
               <div class="mt-3">
                 <a href="{{ .Permalink }}" class="stretched-link btn btn-primary btn-sm">Learn more</a>
               </div>

@@ -13,7 +13,7 @@ attributes:
 
 skills:
   awareness:
-    search: 1
+    search: 2
     track: 1
   coordination:
     pilot: 1
@@ -21,15 +21,15 @@ skills:
     drive: 1
   knowledge:
     investigate: 2
-    medicine: 1
+    medicine: 2
     language: 1   
     academics: 1
   physique:
     strength: 3
     toughness: 2
-    stamina: 2
+    stamina: 3
   presence:
-    willpower: 1
+    willpower: 2
     intimidate: 1
     bargain: 1
     persuade: 1

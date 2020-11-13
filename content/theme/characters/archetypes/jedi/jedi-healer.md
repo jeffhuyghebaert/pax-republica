@@ -33,6 +33,6 @@ skills:
     leap: 3
     melee: 4
 ---
-Wisdom and empathy are the focus of the Jedi Healer. Trained to wield some of the Force's more esoteric powers of healing and fortification, the Healer is the one the Order calls upon when grievous wounds both physical and emotional need mended. When healing and supporting allies is just as important as dealing blows to the enemy, the Jedi Healer is critical to the Order's goals of protecting peace throughout the galaxy. 
+Wisdom and empathy are the focus of the Jedi Healer. Trained to wield some of the Force's more esoteric powers of healing and fortification, the Healer is the one the Order calls upon when grievous wounds both physical and emotional need mended. Healing and supporting allies is often just as important as dealing blows to the enemy; therefore, the Jedi Healer is critical to the Order's goals of protecting peace throughout the galaxy. 
 
 

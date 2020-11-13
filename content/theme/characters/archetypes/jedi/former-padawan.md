@@ -4,7 +4,7 @@ date: 2020-11-09T21:18:25-08:00
 draft: false
 layout: archetype
 attributes:
-  awareness: 10
+  awareness: 8
   coordination: 10
   knowledge: 9
   physique: 8

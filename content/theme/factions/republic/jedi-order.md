@@ -23,3 +23,11 @@ _There is no chaos, there is harmony._
 
 _There is no death, there is the Force._
 
+###### Ranks
+Youngling - The Order seeks out young Force-sensitive children throughout the galaxy and brings them to its temples to begin their training.
+
+Padawan - Through a rite of passage known as The Gathering, Younglings must enter the Crystal Caves of Ilum and retrieve a kyber crystal with which to assemble their own lightsaber. They may then advance to the rank of Padawan, typically under the tutelage of a more exerienced Knight or Master.
+
+Knight - Once the High Council has determined that a Padawan has proven him or herself as a Jedi and mastered the Force, he/she will be granted the rank of Knight and released from apprenticeship. Most successful Jedi are able to reach this rank.
+
+Master - Not all Jedi ever reach this level of mastery. However, if the Council has determined that a Knight has gained a high level of experience and wisdom, and has remained true to the Jedi way, they may grant the individual the rank of Jedi Master. 

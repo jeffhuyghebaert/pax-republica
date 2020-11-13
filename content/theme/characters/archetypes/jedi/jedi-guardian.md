@@ -32,8 +32,8 @@ layout: archetype
      dodge: 3
      leap: 3
      melee: 4
- ---
-
+     
+---
 Leaders both on and off the battlefield, Jedi Guardians stand valiant and determined as protectors of the galaxy, sometimes against overwhelming odds. Some of the Order's best warriors are Guardians who have honed their minds and bodies into perfect harmony through years of Force attunement, training, and meditation. 
 
 Inspiring allies to incredible feats and striking fear into the hearts of their foes, Guardians are critical to the preservation and continued well-being of the Galactic Republic.

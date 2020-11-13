@@ -4,36 +4,39 @@ date: 2020-11-09T21:18:25-08:00
 draft: false
 layout: archetype
 attributes:
-  awareness: 8
-  coordination: 8
-  knowledge: 7
-  physique: 11
-  presence: 7
+  awareness: 9
+  coordination: 7
+  knowledge: 10
+  physique: 7
+  presence: 11
   reflex: 11
 
 skills:
   awareness:
+    track: 2
     search: 2
   coordination:
     pilot: 1
   knowledge:
-    investigate: 2
-    medicine: 2 
+    investigate: 4
+    medicine: 2
+    language: 3   
   physique:
-    strength: 3
-    toughness: 4
-    stamina: 4
+    strength: 2
+    toughness: 2
+    stamina: 3
   presence:
-    willpower: 3
-    intimidate: 2
-    lead: 3
+    willpower: 2
+    intimidate: 1
+    bargain: 4
+    persuade: 4
+    politics: 3
+    lead: 1
   reflex:
-    acrobatics: 4
-    dodge: 3
+    acrobatics: 3
+    dodge: 2
     leap: 3
     melee: 4
 ---
 
-Leaders both on and off the battlefield, Jedi Guardians stand valiant and determined as protectors of the galaxy, sometimes against overwhelming odds. Some of the Order's best warriors are Guardians who have honed their minds and bodies into perfect harmony through years of Force attunement, training, and meditation. 
-
-Inspiring allies to incredible feats and striking fear into the hearts of their foes, Guardians are critical to the preservation and continued well-being of the Galactic Republic.
+When the Order has need of effective negotiations with other parties or entities, it turns to the Jedi Consular. Consulars are wise visionaries who excel in diplomacy as much as they do in combat. Their cunning insight allows them to seek and find even the most carefully veiled truths, and their gifts in foresight provide them with the advantage of anticipating an enemy's next move before it is carried out. 

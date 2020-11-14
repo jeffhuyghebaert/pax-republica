@@ -22,10 +22,9 @@ skills:
     shoot: 2
     drive: 3
   knowledge:
-    alien cultures: 1
-    language: 1
+    streetwise: 3
   physique:
-    run: 4
+    run: 3
   presence:
     bargain: 2
     persuade: 2

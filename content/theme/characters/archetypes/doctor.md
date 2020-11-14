@@ -34,4 +34,4 @@ skills:
   reflex:
     ride: 2
 ---
-A doctor is a practicioner of medicine of some kind. Whether it's conventional treatments or more traditional healers using alternative medicine, they come in all types and flavors. Doctors typically have intimate knowledge of the anatomies of the major races of the galaxy, as well the common medical procedures used throughout the galaxy. 
+A doctor is a practitioner of medicine of some kind. Whether it's conventional treatments or more traditional healers using alternative medicine, they come in all types and flavors. Doctors typically have intimate knowledge of the anatomies of the major races of the galaxy, as well the common medical procedures used throughout the galaxy. 

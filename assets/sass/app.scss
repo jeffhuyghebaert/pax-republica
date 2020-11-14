@@ -79,6 +79,55 @@
   font-size: 13px;
 }
 
+.timeline {
+  font-size: 14px;
+  .timelineItem {
+    border-left: solid 3px #eee;
+    padding-bottom: 10px;
+    position: relative;
+    .timelineItemBody {
+      &::before {
+        content: '';
+        left: 7px;
+        top: 8px;
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent; 
+        border-right: 8px solid #fff;
+      }
+      &::after {
+        content: '';
+        left: 8px;
+        top: 8px;
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent; 
+        border-right: 8px solid #fff; 
+      }
+      h2.timeline-title {
+        font-size: 16px;
+        text-decoration: underline;
+      }
+    }
+    .spacer {
+      width: 30px;
+      height: 0;
+      border: solid 1px #eee;
+    }
+    .timelineDate {
+      flex-grow: 1;
+      text-align: center;
+      font-weight: bold;
+      background: #eee;
+      padding: 5px 10px;
+    }
+  }
+}
+
 @media screen and (max-width: 1080px) {
   .main-header-image {
     background-size: auto;

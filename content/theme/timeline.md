@@ -48,7 +48,7 @@ items:
   -
     date: ~3,918 PRE
     title: Liberation of Coruscant
-    description: After fifty years of Sith occupation of the Core Worlds, the Republic and the Jedi are able to rally and drive the Sith out. In the aftermath of the war, the Jedi destroy the Sith Shrine, and begin construction on a massive temple over the site in an effort to literally and figuratively bury the Sith legacy. The Sith are driven back to the Outer Rim, and the Republic and the Jedi focus on rebuilding and recovery.
+    description: After fifty years of Sith occupation of the Core Worlds, the Republic and the Jedi are able to rally and drive the Sith out. In the aftermath of the war, the Jedi destroy the Sith Shrine, razing it to its foundations in an effort to literally and figuratively bury the Sith legacy. The Sith are driven back to the Outer Rim, and the Republic and the Jedi focus on rebuilding and recovery.
   - 
     date: ~3,890 PRE
     title: Mandalorian-Jedi War
@@ -60,7 +60,7 @@ items:
   -
     date: ~2,968 PRE
     title: Jedi Temple Constructed
-    description: Construction of the Jedi Temple is constructed by the Four Masters atop the ruins of an ancient Sith Shrine on Coruscant.
+    description: The Jedi Temple on Coruscant is constructed over the ruins of the destroyed Sith Shrine, by the then-leaders of the Jedi High Council who come to be known as The Four Masters. As the Jedi Order becomes might rightly linked to the Republic, the Jedi Temple is expanded several times over the centuries to accomodate its growing importance.
   -
     date: 2,934 PRE
     title: Battle of Malachor
@@ -72,7 +72,7 @@ items:
   - 
     date: ~30 PRE
     title: Fall of the Old Republic
-    description: For nearly 1000 years, the power and influence of the Republic had declined under a stagnant bureaucracy, olitical corruption, and demoralized citizenry. Following the end of the Jedi-Sith War, the Old Republic finally collapsed under its own weight, entering a period during which individual systems and worlds retreated into themselves, distancing from the galactic community.
+    description: For nearly 1000 years, the power and influence of the Republic had declined under a stagnant bureaucracy, political corruption, and demoralized citizenry. Following the end of the Jedi-Sith War, the Old Republic finally collapsed under its own weight, entering a period during which individual systems and worlds retreated into themselves, distancing from the galactic community.
   -
     date: 1 RE
     title: Galactic Republic Re-Established

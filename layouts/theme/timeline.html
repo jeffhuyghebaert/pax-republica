@@ -14,27 +14,23 @@
               <small>Updated {{ .Date.Format "Jan 2, 2006" }}</small>
             </span>
           </div>
-          <div class="card-body border-bottom">
+          <div class="card-body">
             {{ .Content }}
           </div>
-          <div class="card-body mt-3">
-            {{ range .Params.items }}
-              <div class="timelineItem pb-4 row no-gutters">
-                <div class="col-3">
-                  <div class="d-flex align-items-start">
-                    <div class="spacer mt-3"></div>
-                    <div class="timelineDate rounded text-nowrap">{{ .date }}</div>
-                  </div>
-                </div>
-                <div class="col-9">
-                  <div class="timelineItemBody bg-white p-3 shadow rounded ml-3">
-                    <h2 class="timeline-title">{{ .title }}</h2>
-                    <div class="timelineDescription">{{ .description }}</div>
-                  </div>
-                </div>
-              </div>
-            {{ end }}
+        </div>
+        <div class="mt-5">
+          {{ range .Params.items }}
+          <div class="timelineItem pb-4 border-secondary">
+            <div class="d-flex align-items-start">
+              <div class="spacer border-secondary mt-3"></div>
+              <div class="timelineDate bg-secondary text-white text-center mb-4 py-1 px-2 rounded text-nowrap">{{ .date }}</div>
+            </div>
+            <div class="timelineItemBody bg-white p-3 shadow rounded ml-5">
+              <h2 class="timeline-title">{{ .title }}</h2>
+              <div class="timelineDescription">{{ .description }}</div>
+            </div>
           </div>
+          {{ end }}
         </div>
       </div>
     </div>

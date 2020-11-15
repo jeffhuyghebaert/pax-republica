@@ -20,5 +20,7 @@ The following concepts are banned, and are not appable in any way, shape or form
 
 * Planetary Leaders from planets on the playable grid, or major worlds in the SW galaxy.
 
+* Characters who are currently enslaved are not playable. Slavery is acceptable as a background element, but not in active play.
+
 If you are concerned about whether or not your concept is appropriate, please submit a +request to staff and we will review the case.
 

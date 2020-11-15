@@ -15,5 +15,7 @@ The following concepts are restricted:
 * Senators
 * Planetary leaders (from planets not on the playable grid)
 * Gand Findsmen
-* Trained Force-sensitives from other traditions
+* Trained Non-Jedi Force Users
 * Crimelords
+* Mandalorians (please read [Mandalorian](/theme/factions/fringers/mandalorians) faction notes)
+* Dark-Side Force Users

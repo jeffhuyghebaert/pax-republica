@@ -38,3 +38,12 @@ skills:
 Smugglers dropping their cargo at the first sign of Imperial trouble? Gamblers not paying their debts? Time to call in a Bounty Hunter. These are the people who can find the ones who don't want to be found, and bring them back to you alive so you can do whatever you need to do ~~to~~ with them.
 
 Bouny Hunters are expert trackers; able to use their wits and knowledge to trick their quarry into being in the right place at the right time for capture. Bounty Hunters aren't killers, and prefer to bring in their targets alive whenever possible; they're worth more that way. Bounty Hunting is dangerous, lonely work, and hunters need to be able to handle themselves well in a fight; usually their targets aren't the type who will just come quietly.
+
+**Suggested Traits**
+- [Ambidextrous](/systems/chargen/traits/ambidextrous)
+- [Brawl Star](/systems/chargen/traits/brawl-star)
+- [Gunslinger](/systems/chargen/traits/gunslinger)
+- [Keen Eyesight](/systems/chargen/traits/keen-eyesight)
+- [Keen Hearing](/systems/chargen/traits/keen-hearing)
+- [Lightfooted](/systems/chargen/traits/lightfooted)
+- [Weapon Master](/systems/chargen/traits/weapon-master)

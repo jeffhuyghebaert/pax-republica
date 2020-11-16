@@ -10,7 +10,7 @@ awareness: 10
    presence: 7
    reflex: 10
 
- skills:
+skills:
    awareness:
      track: 2
      search: 3
@@ -31,6 +31,6 @@ awareness: 10
      intimidate: 3
    reflex:
      melee: 2
-     acrobatics: 2
+     brawl: 2
 ---
 A judicial is a member of the Republic Security Forces, from police officers and guards to investigators. Combating pirates, organized crime and illegal trade, the enforcement of Republic law and protection of its citizens from criminals falls into the hands of these capable agents.

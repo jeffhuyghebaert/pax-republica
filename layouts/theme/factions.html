@@ -6,21 +6,29 @@
       {{- partial "sidebar.html" . }}
     </div>
     <div class="col-md-10 col">
+      <div class="pb-2">
+        {{ .Content }}
+        <hr />
+      </div>
+      
       {{ with .Sections.ByTitle }}
         {{ range . }}
-        <div class="card mb-5 border-0 bg-transparent">
-          <div class="media">
-            <img src="{{ .Params.image }}" class="img-thumbnail mr-3" height="100%" width="35%" alt="{{ .Title }}" />
-            <div class="media-body p-2">
-              <h5 class="card-title">{{ .Title }}</h5>
+        <div class="card mb-4 border-0">
+          <div class="card-header bg-white pb-0"><h5>{{ .Title }}</h5></div>
+          <div class="d-flex card-body">
+            <div class="flex-fill">
               {{ .Params.summary }}
               {{ with .Params.npc }}
-              <p class="mt-3">This is an NPC faction is not available for players to join, however they may interact with it for plot purposes.</p>
+              <p class="mt-4">This is an NPC faction is not available for players to join, however they may interact with it for plot purposes.</p>
               {{ end }}
-              <div class="mt-3">
-                <a href="{{ .Permalink }}" class="stretched-link btn btn-primary btn-sm">Learn more</a>
-              </div>
+              {{ with .Params.restricted }}
+              <p class="mt-4">This faction is restricted. In order to create a character in this faction, contact staff.</p>
+              {{ end }}
             </div>
+            <img src="{{ .Params.image }}" class="ml-3" height="100%" width="35%" alt="{{ .Title }}" />
+          </div>
+          <div class="card-footer bg-white border-0">
+            <a href="{{ .Permalink }}" class="stretched-link btn btn-primary btn-block btn-sm">Learn more</a>
           </div>
         </div>
         {{ end }}

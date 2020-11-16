@@ -2,6 +2,9 @@
 title: "Jedi Order"
 date: 2020-11-10T21:07:27-08:00
 draft: false
+image: /img/factions/jedi-order.jpg
+summary: For countless generations, the Jedi Knights, an order of warrior-monks based out of Coruscant’s Jedi Temple, defend the ideals of peace and justice throughout the galaxy. The Jedi are a religious order who worship the Light Side of the Force, both serving it and using its power to fight against the forces of the Dark Side. The lightsaber is the signature weapon of the Jedi, who train since childhood to use it to protect themselves and innocent lives. Jedi are revered and respected in the Republic, but further from the Core Worlds they are sometimes seen as little more than myth and legend; some cultures even disdain the very idea of the Jedi.
+
 ---
 
 For countless generations, the Jedi Knights, an order of warrior-monks based out of Coruscant’s Jedi Temple, allied with the Republic to defend peace, justice, and democracy throughout the galaxy. 

@@ -30,6 +30,6 @@ skills:
     intimidate: 3
   reflex:
     melee: 2
-    acrobatics: 2
+    streetwise: 2
 ---
 When a criminal is deemed too dangerous or evasive to be dealt with by local authorities, the Republic turns to Sector Rangers assigned to the area to hunt down and apprehend them. They are incredibly capable trackers with the combat skills to match. Special Enforcement Officers (SEOs) are the elite crew, and have the authority to cross sector boundaries and recruit the assistance of locals in the pursuit of a target. 

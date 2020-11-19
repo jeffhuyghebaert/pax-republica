@@ -1,38 +1,48 @@
 {{ define "main" }}
 <div class="screen"></div>
-<div class="container-fluid p-5">
+<div class="container-fluid">
   <div class="row">
     <div class="col-md-2 d-none d-md-block">
       {{- partial "sidebar.html" . }}
     </div>
     <div class="col-md-10 col">
-      <div class="pb-2">
-        {{ .Content }}
-        <hr />
+      <div class="card shadow border-0 mb-5 mt-n150">
+        <div class="card-header">
+          <h3 class="m-0">{{ .Title }}</h3>
+        </div>
+        <div class="card-body">
+          {{ .Content }}
+          <hr class="my-4" />
+          {{ with .Sections.ByTitle }}
+          {{ range . }}
+          <div class="card mt-4 bg-dark">
+            <div class="card-header text-light">
+              <h5 class="m-0 font-weight-bold">{{ .Title }}</h5>
+            </div>
+            <div class="d-flex card-body text-light">
+              <div class="flex-fill">
+                {{ .Params.summary }}
+                {{ with .Params.npc }}
+                <p class="mt-4">This is an NPC faction is not available for players to join, however they may interact with it for
+                  plot purposes.</p>
+                {{ end }}
+                {{ with .Params.restricted }}
+                <p class="mt-4">This faction is restricted. In order to create a character in this faction, contact staff.</p>
+                {{ end }}
+              </div>
+              <img src="{{ .Params.image }}" class="ml-3" height="100%" width="35%" alt="{{ .Title }}" />
+            </div>
+            <div class="card-footer border-0">
+              <a href="{{ .Permalink }}" class="stretched-link btn btn-primary text-light font-weight-bold btn-block btn-sm">Learn more</a>
+            </div>
+          </div>
+          {{ end }}
+          {{ end }}
+        </div>
       </div>
       
-      {{ with .Sections.ByTitle }}
-        {{ range . }}
-        <div class="card mb-4 border-0">
-          <div class="card-header bg-white pb-0"><h5>{{ .Title }}</h5></div>
-          <div class="d-flex card-body">
-            <div class="flex-fill">
-              {{ .Params.summary }}
-              {{ with .Params.npc }}
-              <p class="mt-4">This is an NPC faction is not available for players to join, however they may interact with it for plot purposes.</p>
-              {{ end }}
-              {{ with .Params.restricted }}
-              <p class="mt-4">This faction is restricted. In order to create a character in this faction, contact staff.</p>
-              {{ end }}
-            </div>
-            <img src="{{ .Params.image }}" class="ml-3" height="100%" width="35%" alt="{{ .Title }}" />
-          </div>
-          <div class="card-footer bg-white border-0">
-            <a href="{{ .Permalink }}" class="stretched-link btn btn-primary btn-block btn-sm">Learn more</a>
-          </div>
-        </div>
-        {{ end }}
-      {{ end }}
+      
+      
     </div>
   </div>
 </div>

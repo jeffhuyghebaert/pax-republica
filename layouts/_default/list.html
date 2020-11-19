@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="screen"></div>
-<div class="container-fluid p-5">
-  <div class="row card-list">
+<div class="container-fluid">
+  <div class="row">
     {{ $showSidebar := and .Parent.Page (not .Parent.IsHome) }}
     {{ if $showSidebar }}
     <div class="col-md-3 col-lg-2 d-md-block order-2 order-md-1">
@@ -9,49 +9,54 @@
     </div>
     {{ end }}
     <div class="{{ if $showSidebar }}col-md-9 col-lg-10{{ end }} col order-1 order-md-2">
-      <div class="mb-3 pb-1 border-bottom d-flex justify-content-between align-items-center">
-        <h3 class="m-0">{{ .Title }}</h3>
-        <span class="font-italic"><small>Updated {{ .Date.Format "Jan 2, 2006" }}</small></span>
+      <div class="card shadow border-0 mb-5 mt-n150">
+        <div class="card-header d-flex justify-content-between align-items-center">
+          <h3 class="m-0">{{ .Title }}</h3>
+          <span class="font-italic"><small>Updated {{ .Date.Format "Jan 2, 2006" }}</small></span>
+        </div>
+        <div class="card-body">
+          <div class="card-list px-2">
+            {{ with .Content }}
+              <div class="mb-5 border-bottom">
+                {{ . }}
+              </div>
+            {{ end }}
+            
+            {{ with .Sections.ByTitle }}
+              <div class="row mb-5">
+                {{ range sort . }}
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                  <div class="card border-0 bg-secondary mb-4">
+                    {{ with .Params.image }}
+                    <img src="{{ . }}" class="card-img-top border-bottom" alt="{{ $.Page.Title }}" />
+                    {{ end }}
+                    <div class="card-body text-center">
+                      <a href="{{ lower .Permalink | relURL }}" class="text-white font-weight-bold stretched-link">{{ .Title }}</a>
+                    </div>
+                  </div>
+                </div>
+                {{ end }}
+              </div>
+            {{ end }}
+            {{ with .RegularPages.ByTitle }}
+              <div class="row">
+                {{ range sort . }}
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                  <div class="card border mb-3">
+                    {{ with .Params.image }}
+                    <img src="{{ . }}" class="card-img-top border-bottom" alt="{{ $.Page.Title }}" />
+                    {{ end }}
+                    <div class="card-body font-weight-bold text-center">
+                      <a href="{{ lower .Permalink | relURL }}" class="text-secondary stretched-link">{{ .Title }}</a>
+                    </div>
+                  </div>
+                </div>
+                {{ end }}
+              </div>
+            {{ end }}
+          </div>
+        </div>
       </div>
-      
-      {{ with .Content }}
-        <div class="mb-5 border-bottom">
-          {{ . }}
-        </div>
-      {{ end }}
-      
-      {{ with .Sections.ByTitle }}
-        <div class="row mb-5">
-          {{ range sort . }}
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-            <div class="card border-0 bg-secondary mb-3">
-              {{ with .Params.image }}
-              <img src="{{ . }}" class="card-img-top border-bottom" alt="{{ $.Page.Title }}" />
-              {{ end }}
-              <div class="card-body text-center">
-                <a href="{{ lower .Permalink | relURL }}" class="text-white font-weight-bold stretched-link">{{ .Title }}</a>
-              </div>
-            </div>
-          </div>
-          {{ end }}
-        </div>
-      {{ end }}
-      {{ with .RegularPages.ByTitle }}
-        <div class="row">
-          {{ range sort . }}
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-            <div class="card border mb-3">
-              {{ with .Params.image }}
-              <img src="{{ . }}" class="card-img-top border-bottom" alt="{{ $.Page.Title }}" />
-              {{ end }}
-              <div class="card-body font-weight-bold text-center">
-                <a href="{{ lower .Permalink | relURL }}" class="text-secondary stretched-link">{{ .Title }}</a>
-              </div>
-            </div>
-          </div>
-          {{ end }}
-        </div>
-      {{ end }}
     </div>
   </div>
 </div>

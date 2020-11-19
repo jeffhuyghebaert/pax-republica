@@ -105,7 +105,7 @@ body {
 }
 
 .timeline {
-  font-size: 14px;
+  font-size: 16px;
   .timelineItem {
     border-left: solid 3px #eee;
     .timelineItemBody {
@@ -114,6 +114,17 @@ body {
         content: '';
         left: 20px;
         top: -15px;
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent; 
+        border-bottom: 15px solid #eee;
+      }
+      &::after {
+        content: '';
+        left: 20px;
+        top: -13px;
         width: 0;
         height: 0;
         position: absolute;

@@ -39,4 +39,4 @@ skills:
     brawl: 3
     
 ---
-A Grizzled Veteran was once a soldier of some kind, but has retired from the fight, usually due to age taking its toll on the body. However, with age comes experience and wisdom, both of which make these old soldiers invaluable for their insight on almost every battle needing won. Younger, high-ranking officers often seek the advice of veterans when finding themselves up against seemingly insurmountable odds. 
+You were once a soldier, but that time of your life is over, or so you think. You retired, or you were forced out, or your aging body just didn't give you a choice. You've seen everything in war from the greatest acts of bravery to the basest of atrocities, and with that experience comes skill and wisdom, both of which make your insight and advice invaluable to the younger generation. At least, you're inclined to think so. Because of your experiences, you might suffer some lasting injuries (took a blaster to the knee, perhaps), or some post-traumatic stress which makes it challenging to integrate back into civilian life.

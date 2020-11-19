@@ -2,6 +2,7 @@
 title: "Soldier"
 date: 2019-12-20T23:38:41-08:00
 draft: false
+<<<<<<< Updated upstream
 layout: archetype 
 
 attributes:
@@ -38,3 +39,8 @@ skills:
     
 ---
 A soldier is usually someone who is loyal to some sort of military, whether it's a local militia or a larger, interplanetary force. The soldier could be in the service of a government, business, or even criminal organization. They usually have an excellent physique and lightning-fast reflexes, as the job demands it. 
+=======
+---
+
+Every planet and planetary system needs a standing army and navy. High ranking officers will need to be approved. He or she can be in any number of supporting roles from starship bridge officer, ships engineer to combat medic. 
+>>>>>>> Stashed changes

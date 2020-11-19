@@ -1,7 +1,12 @@
+$primary-blue: #467393;
+$success: #4E9B53;
+$warning: #F2AF29;
+$danger: #AD343E;
+$info: #C7DBE6;
 $theme-colors: (
-  "primary": #467393,
-  "success": #4E9B53,
-  "warning": #F2AF29,
-  "danger": #AD343E,
-  "info": #C7DBE6
+  "primary": $primary-blue,
+  "success": $success,
+  "warning": $warning,
+  "danger": $danger,
+  "info": $info
 );

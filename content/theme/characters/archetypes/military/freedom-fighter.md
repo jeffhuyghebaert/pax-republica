@@ -1,6 +1,6 @@
 ---
 title: "Freedom Fighter"
-date: 2019-12-20T23:38:54-08:00
+date: 2019-11-18T23:38:54-08:00
 draft: false
 layout: archetype 
 
@@ -37,4 +37,4 @@ skills:
     grip: 1
 
 ---
-Freedom Fighters fight for the rights and/or independence of a people or nation, or even just of a certain group. Whether it's in combat or through diplomacy, freedom fighters have a strong resolve and a determination to stand up for those who cannot stand up for themselves. 
+Freedom Fighters are those who fight for the rights and/or independence of a people or nation through armed struggle. Sometimes called Rebels, Revolutionaries, or even terrorists (depending who's doing the talking), Freedom Fighters seek to right injustices and usher in a better way of life for themselves, their compatriots, and those who cannot stand up for themselves. Freedome Fighters come from all walks of life, whether they were trained in the military and became disillusioned with the system, or a simple farmer who experienced injustice first-hand at the boot of their oppressors.

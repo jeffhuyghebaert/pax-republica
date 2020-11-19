@@ -38,4 +38,4 @@ skills:
     brawl: 3
    
 ---
-A Mercenary is a soldier who is not employed by any particular government, faction, or other organization with goals beyond the simple business of making money using one's effective combat prowess. Many of them work alone most of the time, although some travel in groups or work for organizations like the Bounty Hunters' Guild.
+A professional soldier, sometimes called a soldier of fortune, a mercenary is paid for his service to fight in wars and battles which, besides the money, have nothing to do with him. Often, mercenaries work alone or with a small team, and some mercenaries also work at Bounty Hunters, though the guild frowns on such things; mercenaries don't usually have the same sensibilities when it comes to killing their targets. Mercenaries are often hired by private citizens as bodyguards, or in some circumstances consultants.

@@ -1,5 +1,5 @@
 ---
-title: "Entrepeneur"
+title: "Entrepreneur"
 date: 2020-11-09T21:20:06-08:00
 layout: archetype
 attributes:
@@ -34,4 +34,4 @@ skills:
   reflex:
     ride: 1
 ---
-An entrepeneur has taken a bold step into the business world by striking out on their own. They are usually the type who enjoy the challenge of high risk, high reward situations and the thrill that comes with great success against overwhelming odds. Running your own business typically requires one to wear many different hats, and have good management skills. 
+An entrepreneur has taken a bold step into the business world by striking out on their own. They are usually the type who enjoy the challenge of high risk, high reward situations and the thrill that comes with great success against overwhelming odds. Running your own business typically requires one to wear many different hats, and have good management skills. 

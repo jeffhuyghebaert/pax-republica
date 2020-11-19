@@ -37,4 +37,4 @@ skills:
     brawl: 3
     
 ---
-A soldier is usually someone who is loyal to some sort of military, whether it's a local militia or a larger, interplanetary force. The soldier could be in the service of a government, business, or even criminal organization. They usually have an excellent physique and lightning-fast reflexes, as the job demands it. 
+Every planet and planetary system has some form of a military, whether it's a standing army, navy, or security force. As a loyal member of this military, you take your vow of service very seriously, and take pride in yourself, your unit, and the corps. Soldiers are expertly trained, usually with excellent fighting skills, fast reflexes, and superior discipline. You're used to taking orders and carrying them out, but you have a head on your shoulders capable of weighing the morality of your actions against you code and your oath.

@@ -5,3 +5,4 @@ draft: false
 
 ---
 
+Someone says left and you go right. The moment you look up from a map you are probably lost. Often the directionally challenged won’t ask for directions and even when they do succumb to the need, can’t follow them. 

@@ -14,7 +14,7 @@ attributes:
 
 skills:
   awareness:
-    conceal: 4
+    conceal: 3
     sneak: 3
     hide: 3
     disguise: 2
@@ -27,6 +27,7 @@ skills:
     pick lock: 2
   knowledge:
     streetwise: 3
+    security: 1
   physique:
     run: 1
   presence:

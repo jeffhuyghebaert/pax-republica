@@ -38,3 +38,9 @@ skills:
     
 ---
 Every planet and planetary system has some form of a military, whether it's a standing army, navy, or security force. As a loyal member of this military, you take your vow of service very seriously, and take pride in yourself, your unit, and the corps. Soldiers are expertly trained, usually with excellent fighting skills, fast reflexes, and superior discipline. You're used to taking orders and carrying them out, but you have a head on your shoulders capable of weighing the morality of your actions against you code and your oath.
+
+**Suggested Traits**
+
+- [Gunslinger](/systems/chargen/traits/gunslinger)
+- [Weapon Master](/systems/chargen/traits/weapon-master)
+- [High Pain Threshold](/systems/chargen/traits/high-pain-threshold)

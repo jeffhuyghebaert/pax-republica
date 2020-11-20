@@ -6,8 +6,9 @@ image: /img/locations/brentaal.jpg
 layout: location
 
 species:
-  name: Human
-  language: Basic
+  - Human
+languages: 
+  - Basic
 system: 
   sector: Bormea Sector
   name: Brentaal System

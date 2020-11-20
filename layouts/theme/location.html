@@ -33,53 +33,67 @@
                 {{ end }}
                 <div class="card-header text-center bg-secondary text-light border-0"><b>{{ .Title }}</b></div>
                 {{ with .Params.system }}
-                <div class="card-header text-center bg-light border-bottom p-1">Star System</div>
+                <div class="card-header text-center bg-light border-bottom p-1">Astrography</div>
                 <div class="card-body">
                   {{ with .Name }}
-                    <div class="row mb-2">
-                      <div class="col-4 text-capitalize">Name:</div>
-                      <div class="col-8 my-auto">{{ . }}</div>
+                    <div class="d-flex align-items-center">
+                      <p class="info-title mb-2">Name:</p>
+                      <p class="text-secondary mb-2">{{ . }}</p>
                     </div>
                   {{ end }}
                   {{ with .Sector }}
-                  <div class="row mb-2">
-                    <div class="col-4 text-capitalize">Sector:</div>
-                    <div class="col-8 my-auto">{{ . }}</div>
+                  <div class="d-flex align-items-center">
+                    <p class="info-title mb-2">Sector:</p>
+                    <p class="text-secondary mb-2">{{ . }}</p>
                   </div>
                   {{ end }}
                   {{ with .Star }}
-                  <div class="row mb-2">
-                    <div class="col-4 text-capitalize">Primary Star:</div>
-                    <div class="col-8 my-auto">{{ . }}</div>
+                  <div class="d-flex align-items-center">
+                    <p class="info-title mb-2">Primary Star:</p>
+                    <p class="text-secondary mb-2">{{ . }}</p>
                   </div>
                   {{ end }}
                   {{ with .Trade_routes }}
-                  <div class="row mb-1">
-                    <div class="col-4 text-capitalize">Trade Routes:</div>
-                    <div class="col-8 my-auto">
+                  <div class="d-flex align-items-center">
+                    <div class="info-title mb-2">Trade Routes:</div>
+                    <div class="mb-2">
                       {{ range . }}
-                        <p class="m-0">{{ . }}</p>
+                        <p class="text-secondary m-0">{{ . }}</p>
                       {{ end }}
                     </div>
                   </div>
                   {{ end }}
                 </div>
                 {{ end }}
+                <div class="card-header text-center bg-light border-top border-bottom p-1">Demographics</div>
+                <div class="card-body">
                 {{ with .Params.species }}
-                  <div class="card-header text-center bg-light border-top border-bottom p-1">Native Species</div>
-                  <div class="card-body">
-                    <div class="row mb-2">
-                      <div class="col-4 text-capitalize">Native Species:</div>
-                      <div class="col-8 my-auto">{{ .name }}</div>
-                    </div>
-                    <div class="row mb-2">
-                      <div class="col-4 text-capitalize">Primary Language:</div>
-                      <div class="col-8 my-auto">{{ .language }}</div>
+                  <div class="d-flex align-items-center">
+                    <p class="info-title mb-2">Native Species:</p>
+                    <div class="mb-2">
+                      {{ range . }}
+                      <p class="text-secondary m-0">{{ . }}</p>
+                      {{ end }}
                     </div>
                   </div>
                 {{ end }}
+                {{ with .Params.languages }}
+                  <div class="d-flex align-items-center">
+                    <p class="info-title mb-2">Languages:</p>
+                    <div class="mb-2">
+                      {{ range . }}
+                      <p class="text-secondary m-0">{{ . }}</p>
+                      {{ end }}
+                    </div>
+                  </div>
+                {{ end }}
+                </div>
+                {{ with .Params.capital }}
+                  <div class="card-header border-bottom-0 border-top bg-info p-1 text-center">Capital: {{ . }}</div>
+                {{ end }}
+                
                 {{ with .Params.affiliation }}
-                  <div class="card-header border-top border-bottom text-center p-1">
+                  <div class="card-header border-top border-bottom text-center p-1 bg-secondary text-light">
                     Affiliation: {{ . }}
                   </div>
                 {{ end }}

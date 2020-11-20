@@ -4,6 +4,8 @@ date: 2020-11-06T22:19:29-08:00
 draft: false
 image: /img/locations/nar-shaddaa.png
 layout: location
+affiliation: Hutt Clans
+capital: Hutta Town
 ---
 Nar Shaddaa is the largest moon of the planet Nal Hutta, located in the Hutt Space region of the Outer Rim Territories. Its surface is covered entirely in urban sprawl, 
 with the city lights visible from orbit. The capital of Nar Shaddaa is Hutta Town. Its architecture is composed of huge tower blocks between which live a patchwork of shanty town 

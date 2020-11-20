@@ -6,8 +6,9 @@ image: /img/locations/alderaan.jpg
 layout: location
 affiliation: Republic
 species:
-  name: Human
-  language: Basic
+  - Human
+languages:
+  - Basic
 system: 
   sector: Alderaan Sector
   name: Alderaan System
@@ -15,6 +16,7 @@ system:
   moons: 0,
   trade_routes:
     - Commenor Run
+capital: Aldera
 
 markup:
   tableOfContents:

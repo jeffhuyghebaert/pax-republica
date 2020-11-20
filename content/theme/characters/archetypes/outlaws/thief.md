@@ -15,18 +15,20 @@ attributes:
 skills:
   awareness:
     conceal: 4
-    sneak: 4
-    hide: 4
-    disguise: 3
+    sneak: 3
+    hide: 3
+    disguise: 2
     forge: 2
   coordination:
-    pilot: 3
-    shoot: 3
-    drive: 3
+    pilot: 2
+    shoot: 2
+    drive: 2
+    steal: 5
+    pick lock: 2
   knowledge:
     streetwise: 3
   physique:
-    run: 2
+    run: 1
   presence:
     intimidate: 1
     persuade: 1

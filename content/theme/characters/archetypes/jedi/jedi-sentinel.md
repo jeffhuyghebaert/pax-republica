@@ -21,7 +21,7 @@ skills:
   physique:
     strength: 4
     toughness: 2
-    stamina: 3
+    stamina: 2
   presence:
     willpower: 3
     intimidate: 2
@@ -29,7 +29,7 @@ skills:
     acrobatics: 4
     dodge: 4
     leap: 3
-    melee: 4
+    melee: 5
     
 ---
 Jedi Sentinels excel at taking control of the battlefield through their fine-tuned focus and deep connection to the Force. When it comes to lightsaber skills, Sentinels are nearly unparalled, and are often seen dual wielding. As such, they are best equipped to deal high amounts of damage within a short period of time. Need to hit something fast and hard? The Jedi Sentinel is not likely to disappoint.  

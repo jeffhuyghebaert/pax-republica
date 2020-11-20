@@ -21,8 +21,9 @@ skills:
     pilot: 1
   knowledge:
     academics: 3
-    language: 4
+    language: 3
     alien cultures: 2
+    streetwise: 1
   physique:
     run: 2
     toughness: 1

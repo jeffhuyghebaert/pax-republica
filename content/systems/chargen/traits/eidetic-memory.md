@@ -5,3 +5,4 @@ draft: false
 
 ---
 
+Also known as total recall, an image, the written word or something heard once is engraved on the your mind, never to be forgotten. +1D to any knowledge based skill roll

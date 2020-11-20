@@ -5,3 +5,4 @@ draft: false
 
 ---
 
+You are the person that tells their spouse that their clothes make their backside look fat. Definitely not someone suited to diplomacy or politics, telling the truth is a burning necessity for you, making you simultaneously very trust worthy and a liability.

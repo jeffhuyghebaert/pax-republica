@@ -4,22 +4,41 @@ date: 2020-11-06
 draft: false
 image: /img/locations/tatooine.png
 layout: location
+affiliation: Hutt Clans
+species:
+  - Tusken Raiders
+  - Jawas
+languages:
+  - Basic
+  - Huttese
+  - Tusken
+  - Jawaese
+system: 
+  sector: Arkanis Sector
+  name: Tatoo System
+  star: Tatoo I, Tatoo II
+  moons: 3,
+  trade_routes:
+    - Mumble's Turnaround
+    - Triellus Trade Route
+capital: Mos Espa
+
+markup:
+  tableOfContents:
+    endLevel: 3
+    ordered: false
+    startLevel: 2
 ---
 
-Tatooine is located in the Outer Rim. It is orbited by three moons: Ghomrassen, Guermessa and Chenini.[3] Long ago, Tatooine was covered in oceans and rainforests, but for unknown reasons, it became a hot desert world.[2] Tatooine orbits twin suns, Tatoo I and Tatoo II.[3][1] The whole planet is covered in harsh deserts, and only a small part of its northern hemisphere can sustain intelligent life.[32] The landscape was covered with sand dunes, mountains, and canyons, which made traversing the planet very difficult. Due to the absence of surface water, those who lived on Tatooine had to draw moisture through the dry air.[33]
+Tatooine is a desert planet located in the Outer Rim, orbiting twin suns. The planet lies just beyond what has long been the very edge of Republic space, and has been under the control of the Hutts for as long as anyone can remember. Tatooine is known for sand, the native scavenging Jawas, and the primitive, isolationist Sand People known as Tusken Raiders. Tatooine is generally considered a backwater, unimportant planet by the galaxy at large; with the presence of the Hutts, and its remote location, Tatooine is an unofficial center for shadier dealings.
 
-Native species include the carnivorous krayt dragons, bantha, eopies, dewbacks, rontos, womp rats, massiffs and scurriers. The common krayt dragon, while more plentiful, is shadowed by the greater krayt dragon, which submerged itself under the shifting sands and used its powerful limbs to swim through the dunes. 
+## Geography
 
-The cities of Tatooine are frequently blasted by sandstorms. Not much distinguished the towns as the poor standard of living is common. The cities are separated from each other by large expanses of deserts. Rural life, on the other hand, was mostly small moisture farms that sell water and food for a meager living.
-Points of Interest
-Mos Espa 
-Mos Espa is Tatooine’s largest city. The city is entirely controlled by the Hutts and their criminal syndicates, while the vast majority of citizens are poor individuals just trying to
-get by. Even less fortunate are the slaves housed in old mining quarters on the outskirts of town.
+Long ago, Tatooine was covered in oceans and rain forests, but through as-yet unknown means, it became a planet-wide desert. The landscape is covered with sand dunes, mountains, canyons, and rock formations which make traversing the terrain difficult. Due to the almost complete abscence of surface water, those who live on Tatooine draw moisture from the air.
 
-Most of the city is built out of weathered natural stone and similar materials; most buildings have a domed roof and few or no windows. The streets are a winding maze with few markers or formal organization. There is no meaningful distinction between legal trade and what other cities would consider black markets. Sandstorms are a regular threat that can shut
-down the city with little warning.
+## Points of Interest
 
-Beyond Tatooine, Mos Espa is known for the spectacular podraces held at the Grand Arena just outside of town. Podracers from across the Outer Rim and beyond pit their skills against each other and the fantastically dangerous racecourse. Most spectators watch the race from an enormous grandstand. Gambling on races is one of Mos Espa’s primary economic gains, so the Hutts are intent upon maintaining their control over the events.
+### Mos Espa
+Tatooine's largest city and de facto capital, Mos Espa is controlled by the Hutt Clans and their criminal syndicates. The majority of its citizens are poor individuals just trying to survive day to day. Most of the city is built from weathered natural stone, and most buildings have a domed roof with few or no windows. The streets are a winding maze with few markers or formal organization.
 
-Mos Eisley Spaceport
-Mos Eisley spaceport is a large, bustling place with ships constantly arriving and departing at over three hundred landing pads around the city. All manner of goods both legal and illicit can be found for sale somewhere in town. The city's cantinas and bazaars are popular meeting places for those seeking to move cargo or passengers. Mos Eisley's buildings are typical for the world--low to the ground with domed roofs or open-top landing bays.
+### Hutt Palace

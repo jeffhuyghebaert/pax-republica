@@ -4,6 +4,8 @@ date: 2020-11-06
 draft: false
 image: /img/locations/naboo.png
 layout: location
+affiliation: Republic
+capital: Theed
 ---
 
 Naboo is a lush, green and blue world dotted with cities and towns that feature many gardens and formal-looking architecture. While the surface is ruled by humans who colonized the planet thousands of years ago, its expansive oceans and marshlands are inhabited mainly by the native Gungans. Surprisingly, the planet does not have a molten core like many other planets of its type, but sports a plasma core that has burned many caverns and labyrinths into the lower layers of rock.

@@ -7,8 +7,9 @@ image: /img/locations/coruscant.png
 layout: location
 affiliation: Republic
 species:
-  name: Human
-  language: Basic
+  - Human
+languages: 
+  - Basic
 system: 
   sector: Corusca Sector
   name: Coruscant System
@@ -18,7 +19,7 @@ system:
     - Namadii Corridor
     - Nexus Route
     - Perlemian Trade Route
-
+capital: Galactic City
 ---
 
 Also known as “Triple Zero,” in reference to its galactic coordinates, Coruscant has always been considered the center of the galaxy. It is home to the High Chancellor and the central meeting place of the Galactic Republic Senate, as well as the main Jedi Temple and base of operations. The planet is a never-ending cityscape, with kilometers-tall skyscrapers dominating the skyline.

@@ -3,6 +3,7 @@ title: "Caamasi"
 date: 2020-10-25T23:35:04-07:00
 draft: false
 layout: race
+image: /img/races/caamasi.jpg
 
 stats:
   awareness:

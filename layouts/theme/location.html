@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="screen"></div>
-<div class="container-fluid p-5">
-  <div class="row">
+<div class="container-fluid">
+  <div class="row mb-5">
     <div class="col-md-2 d-none d-md-block">
       {{- partial "sidebar.html" . }}
     </div>
@@ -14,47 +14,17 @@
         <div class="card-body">
           <div class="row">
             <div class="col-md-8">
+              <div id="toc" class="card mb-4">
+                <div class="card-header border-0" data-toggle="collapse" data-target="#toc-body">
+                  Table of Contents
+                </div>
+                <div id="toc-body" class="collapse show card-body border-top">
+                  {{ .TableOfContents }}
+                </div>
+              </div>
               <div class="mb-5">
                 {{ .Content }}
               </div>
-              <div class="card w-50 mb-5">
-                <div class="card-header">
-                  Table of Contents
-                </div>
-                <div class="card-body">
-                  <ol class="pl-4 mb-0">
-                  {{ range .Pages }}
-                    <li class="list-item">
-                      <a href="#{{ .File.BaseFileName }}">{{ .Name }}</a>
-                    </li>
-                  {{ end }}
-                  </ol>
-                </div>
-              </div>
-              {{ with .GetPage "system" }}
-              <div class="mb-5" id="system">
-                <h5 class="border-bottom pb-2">Star System</h5>
-                {{ .Content }}
-              </div>
-              {{ end }}
-              {{ with .GetPage "history" }}
-              <div class="mb-5" id="history">
-                <h5 class="border-bottom pb-2">History</h5>
-                {{ .Content }}
-              </div>
-              {{ end }}
-              {{ with .GetPage "geography" }}
-                <div class="mb-5" id="geography">
-                  <h5 class="border-bottom pb-2">Geography</h5>
-                  {{ .Content }}
-                </div>
-              {{ end }}
-              {{ with .GetPage "points-of-interest" }}
-              <div class="mb-5" id="points-of-interest">
-                <h5 class="border-bottom pb-2">Points of Interest</h5>
-                {{ .Content }}
-              </div>
-              {{ end }}
             </div>
             <div class="col-md-4">
               <div class="card border-0 shadow info-card">

@@ -1,6 +1,6 @@
 ---
 title: "Underworld"
-date: 2020-11-22T23:34:30-07:00
+date: 2020-11-21T23:34:30-07:00
 draft: false
 ---
 
@@ -11,6 +11,3 @@ The first and largest group is the Hutt Clans. The Hutts have been involved in s
 The Black Sun cartel is a criminal organization which took shape in the wake of the Sith occupation of Coruscant and the subsequent liberation. Black Sun is established on worlds throughout the Republic, but has its largest and most profitable operations in the Core Worlds, where they are involved in illicit substances, the slave trade, as well as weapons manufacturing and distribution. There have long been rumours that the cartel funds anti-Republic terrorists in an effort to sow chaos and imbalance, allowing them more freedom to operate under the watchful nose of the Republic Judicials without being the most important thing on their radar. The Republic has known about the Black Sun since their formation, however they have been unable to extinguish the organization, or even make significant headway in infiltrating them, even after thousands of years.
 
 The Exchange has been around almost as long as the Black Sun, but mostly sticks to the Outer Rim, where they are direct rivals of the Hutt Clans. The Exchange is known for ruthlessness, offering no quarter to those who have crossed them, or any who might get in their way; even the Hutts and the Black Sun will make a deal when there's opportunity for more profit, but the Exchange has always put vengeance over credits. Primarily engaged in acts of direct piracy and violence, the Exchange is more a loose association of independent criminals than a central organization, which makes it that much more difficult to track and eliminate.
-
-
-

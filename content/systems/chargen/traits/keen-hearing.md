@@ -5,3 +5,4 @@ draft: false
 
 ---
 
+Hunters, trackers and soldiers would benefit from having better than average hearing. This trait gives a bonus of 1D+0 to listen and tracking rolls.

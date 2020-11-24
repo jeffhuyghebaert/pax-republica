@@ -5,11 +5,12 @@ draft: false
 layout: archetype
 attributes:
   awareness: 8
-  coordination: 10
-  knowledge: 9
+  coordination: 9
+  knowledge: 8
   physique: 8
-  presence: 9
+  presence: 8
   reflex: 10
+  force: 6
 
 skills:
   awareness:
@@ -40,6 +41,10 @@ skills:
     dodge: 2
     leap: 2
     melee: 3
+  force:
+    force leap: 1
+    telekinesis: 1
+    control self: 1
     
 ---
 The path of a Jedi Knight is a difficult one, demanding high levels of focus, dedication, and discipline. Therefore, not all who begin training within the Order will ever finish it. However, the Order takes care to ensure that those who cannot finish their training do not feel worthless and are not left out in the cold. The Council is certain to give these individuals a place within the Order, where they will still be valued and given the opportunity to continue contributing to the organization's ongoing efforts to protect the galaxy. Furthermore, those who leave the path of the Jedi Knight behind gain more freedom to hone other skills that may be just as important to the goals of the Order and the Republic.

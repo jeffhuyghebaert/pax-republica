@@ -4,34 +4,39 @@ date: 2020-11-09T21:18:13-08:00
 draft: false
 layout: archetype
 attributes:
-  awareness: 8
-  coordination: 8
-  knowledge: 7
+  awareness: 7
+  coordination: 7
+  knowledge: 6
   physique: 11
-  presence: 7
+  presence: 6
   reflex: 11
+  force: 9
 
 skills:
   awareness:
-    search: 2
+    search: 1
   coordination:
     pilot: 1
   knowledge:
-    investigate: 2
-    medicine: 2 
+    investigate: 1
   physique:
     strength: 3
     toughness: 4
     stamina: 4
   presence:
-    willpower: 3
+    willpower: 2
     intimidate: 2
-    lead: 3
+    lead: 1
   reflex:
-    acrobatics: 4
     dodge: 3
-    leap: 3
-    melee: 4
+    melee: 5
+    acrobatics: 1
+  force:  
+    telekinesis: 2
+    barrier: 3
+    control self: 3
+    deflect: 3
+    
 ---
 
 Leaders both on and off the battlefield, Jedi Guardians stand valiant and determined as protectors of the galaxy, sometimes against overwhelming odds. Some of the Order's best warriors are Guardians who have honed their minds and bodies into perfect harmony through years of Force attunement, training, and meditation. 

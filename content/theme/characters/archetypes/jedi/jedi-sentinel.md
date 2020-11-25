@@ -5,12 +5,12 @@ draft: false
 layout: archetype
 attributes:
   awareness: 7
-  coordination: 8
+  coordination: 7
   knowledge: 6
   physique: 11
   presence: 6
   reflex: 11
-  force: 8
+  force: 9
 
 skills:
   awareness:

@@ -4,13 +4,13 @@ date: 2020-11-09T21:18:25-08:00
 draft: false
 layout: archetype
 attributes:
-  awareness: 8
+  awareness: 7
   coordination: 8
   knowledge: 11
   physique: 7
   presence: 8
   reflex: 7
-  force: 8
+  force: 9
 
 skills:
   awareness:

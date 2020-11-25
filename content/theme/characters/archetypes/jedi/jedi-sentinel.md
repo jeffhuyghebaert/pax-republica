@@ -4,16 +4,17 @@ date: 2020-11-09T21:18:19-08:00
 draft: false
 layout: archetype
 attributes:
-  awareness: 8
-  coordination: 9
-  knowledge: 7
+  awareness: 7
+  coordination: 7
+  knowledge: 6
   physique: 11
-  presence: 7
+  presence: 6
   reflex: 11
+  force: 9
 
 skills:
   awareness:
-    search: 2
+    search: 1
   coordination:
     pilot: 1
   knowledge:
@@ -23,13 +24,17 @@ skills:
     toughness: 2
     stamina: 2
   presence:
-    willpower: 3
+    willpower: 2
     intimidate: 2
   reflex:
-    acrobatics: 4
+    acrobatics: 3
     dodge: 4
-    leap: 3
     melee: 5
+  force:
+    telekinesis: 4
+    telepathy: 2
+    force leap: 4
+    focus: 2
     
 ---
 Jedi Sentinels excel at taking control of the battlefield through their fine-tuned focus and deep connection to the Force. When it comes to lightsaber skills, Sentinels are nearly unparalled, and are often seen dual wielding. As such, they are best equipped to deal high amounts of damage within a short period of time. Need to hit something fast and hard? The Jedi Sentinel is not likely to disappoint.  

@@ -5,4 +5,6 @@ draft: false
 
 ---
 
-The bane of anyone working in public sanitation, you have an above average sense of smell. Trackers would benefit from this trait as would chefs, sommeliers and perfume creators.
+Whether through natural or artificial means, your sense of smell is considerably more acute than others of your species. You are able to detect faint odours more easily, and identify individual components of a smell among a bouquet. You may even be able to identify others by their unique odour.
+
+Your keen sense of smell grants you a 0D+2 bonus to any Awareness roll in which smell may be a relevant factor, at the discretion of the GM.

@@ -5,4 +5,6 @@ draft: false
 
 ---
 
+You suffer from some mental or physiological condition which makes learning new skills difficult; this could be either some kind of dyslexia, dysnumia
+
 You may have difficulties learning to read or using math. Your experience in school may have been unpleasant because of a stutter that made you the object of derision.

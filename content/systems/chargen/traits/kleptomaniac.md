@@ -5,4 +5,4 @@ draft: false
 
 ---
 
-The thrill of stealing gives life that extra zing! At your worst, if something is valuable and not tied down then you will make sure its liberated. Shopping with you takes on a whole other meaning. You always run the risk of being caught.
+You are a compulsive thief, and it's kind of a problem. When you are presented with the opportunity to steal something, you must succeed in a Willpower roll to resist the urge to take it (if you even want to resist). The difficulty level of the roll is determined by the apparent ease of the theft, at the discretion of the GM. If you fail to resist, you must take the item, but you gain a 0D+1 bonus to Steal to do so. If you're caught, well, that's the problem.

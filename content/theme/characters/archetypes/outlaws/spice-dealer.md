@@ -9,8 +9,8 @@ attributes:
   coordination: 11
   knowledge: 9
   physique: 7
-  presence: 7
-  reflex: 9
+  presence: 9
+  reflex: 7
 
 skills:
   awareness:

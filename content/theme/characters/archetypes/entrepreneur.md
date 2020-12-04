@@ -35,3 +35,5 @@ skills:
     ride: 1
 ---
 An entrepreneur has taken a bold step into the business world by striking out on their own. They are usually the type who enjoy the challenge of high risk, high reward situations and the thrill that comes with great success against overwhelming odds. Running your own business typically requires one to wear many different hats, and have good management skills. 
+
+- [Financial Wizard](/systems/chargen/traits/financial-wizard)

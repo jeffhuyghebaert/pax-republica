@@ -34,3 +34,8 @@ skills:
 
 ---
 A diplomat is an excellent negotiator and often smooth talker. They often have extensive knowledge of many different languages and cultures, and know how to talk to almost every major civilization within their sector of focus or specialty. 
+
+
+**Suggested Traits**
+
+- [Natural Charisma](/systems/chargen/traits/natural-charisma)

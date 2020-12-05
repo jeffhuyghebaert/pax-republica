@@ -39,3 +39,5 @@ skills:
 ---
 
 Fighter pilots have a lust for action and adventure, and the skills to match. They are also great for controlling vehicles of all sorts in general, although their specialty is in aerial dogfighting. 
+
+- [Stick Jockey](/systems/chargen/traits/stick-jockey)

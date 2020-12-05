@@ -26,6 +26,6 @@ become so during the course of the course of their lives. The Force may be stron
 certain family names have been associated with the most famous, or infamous, Force users in the galaxy’s history.
 
 The Force even appears to have a will of its own. Many skilled Force wielders have spoken of this phenomenon after communing with the Force or experiencing events of mystical 
-significance. It has been said that the Force not only derives its energy from life, but can also guides living beings' actions at times. Some have stated that it responds most 
+significance. It has been said that the Force not only derives its energy from life, but also guides living beings' actions at times. Some have stated that it responds most 
 strongly to actions taken by those who deliberately seek to use it, and that it aids or opposes individuals according to its own enigmatic orchestrations. As such, Force sensitives understand the indisputable role that the Force has in the entire galaxy's destiny.
 

@@ -40,3 +40,8 @@ skills:
 ---
 One man's trash is another's treasure. Scavengers are experts at going through others' refuse and salvaging up anything that might still have value, sometimes even fixing up equipment that might need some love to get it operational. Not exactly the most glamorous job, but can turn a pretty good profit, especially in the less hospitable corners of the galaxy. 
 
+**Suggested Traits**
+
+- [Rigger](/systems/chargen/traits/rigger)
+- [Unpleasant Odor](/systems/chargen/traits/unpleasant-odor)
+

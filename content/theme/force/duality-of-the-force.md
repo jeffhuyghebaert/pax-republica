@@ -22,7 +22,7 @@ held belief about the Force is evidenced by the waxing and waning of each side's
 balance can shift over time.
 
 While Force-sensitive beings such as the Jedi and the Sith have the greatest influence over the balance of the Force, it is worth noting that they are not the only ones who are 
-capaple of interacting with it, even if they are among the few with the ability to manipulate it. All sentient beings can choose to act in a way that either destroys or preserves 
+capable of interacting with it, even if they are among the few with the ability to manipulate it. All sentient beings can choose to act in a way that either destroys or preserves 
 life. Most view their actions (or lack thereof) within the scope of their own personal convictions, whether these are influenced by cultural or family beliefs or not. This does 
 not mean that the Force has not acted upon them, or that their actions do not affect the balance between light and dark. By embracing one side over the other, they are
 actively engaging in the eternal conflict between the light and the dark. 

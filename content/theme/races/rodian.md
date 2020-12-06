@@ -33,4 +33,4 @@ stats:
 special:
 
 ---
-
+Rodians are a species of reptilian humanoids hailing from the planet Rodia. With large pupil-less eyes, they can see in the infrared spectrum. Their features include slender snouts, pointed ears, twin saucer-like antennae that detect vibrations, and a ridge of spines atop their skulls. Green, yellow or turquoise scales cover their bodies, giving the skin a rough, pebbly texture, except on the snout and hands. Females are physically distinguished by their mammary glands, and some of them are capable of growing long tresses. A Rodian hand has five long, dexterous fingers with suction cups at the ends. These pads help them cope with the variety of conditions associated with living in a swamp, and could be used to help them climb aquatic vegetation. Their toes are similar to their fingers: long and tipped by suction cups.

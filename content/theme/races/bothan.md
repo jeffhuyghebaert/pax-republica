@@ -27,4 +27,7 @@ stats:
 
 special:
 ---
+"You have to understand that Bothans think in terms of political and persuasive influence, not military power. The typical Bothan's goal is to go through life getting more and more people to listen to what he has to say."
+
+Bothans are a race of short, furry humanoids who stand 1.5 meters tall on average. Their fur shifts in response to their emotional state, a feature called the Wrendui. Originally hailing from Bothawui, their body and facial structure can vary among canine, feline, and equine features. They also have a reputation for being master politicians and spies, craving intrigue and subterfuge. Culturally, Bothans are typically in pursuit of their own powers and influence over that of others, and are therefore primarily concerned for their own interests. Bothan families are organized into larger clans, the most important social unit in Bothan civilization.
 

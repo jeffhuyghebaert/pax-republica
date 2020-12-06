@@ -15,7 +15,7 @@ All life in the galaxy is constantly moving through an endless cycle of death an
 while fading in others. This ebb and flow forms the foundation for the Force’s other half—the Cosmic Force.
 
 Energy from the Living Force ultimately passes into the Cosmic Force. This includes not only the energy of the Living Force at any given point in time, but the energy of every 
-being that has ever lived in the galaxy. As such, the Cosmic Force transcends the typical conceptions of time and space. It connects all things that ever were, are, and will be in the galaxy together.
+being that has ever lived in the galaxy. As such, the Cosmic Force transcends the typical conceptions of time and space. It connects all things that ever were, are, and will be.
 
 The Cosmic Force is more difficult to access than the Living Force. It requires meditation, openness, and harmony to attune oneself to its rhythms. As one may have deduced from 
 this, some of the most powerful Force abilities are fueled by this aspect of it, such as the ability to see distant places and events, or to learn of a myriad of potential 

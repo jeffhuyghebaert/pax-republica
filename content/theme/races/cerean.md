@@ -2,7 +2,7 @@
 title: "Cerean"
 date: 2020-10-25T23:35:08-07:00
 draft: false
-image: /img/races/cerean.jpeg
+image: /img/races/cerean.png
 layout: race
 
 stats:

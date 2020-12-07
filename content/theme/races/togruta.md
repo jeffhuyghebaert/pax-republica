@@ -28,5 +28,6 @@ stats:
 special:
 
 language: Togrutan
----
 
+---
+Togrutas are a sentient species from the planet Shili. They are characterized by their colorful skin tones, large montrals and head tails, and white facial pigments, which served to hide them from predators. A Togruta's montrals allows the detection of movement around them through echolocation up to 82 feet away. They have also been known to be carnivores. Although Shili is their homeworld, Togrutan colonies exist in other places throughout the galaxy. The species natural habitat is high altitude mountainous areas.

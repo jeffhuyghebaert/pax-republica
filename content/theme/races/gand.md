@@ -2,7 +2,7 @@
 title: "Gand"
 date: 2020-10-25T23:35:21-07:00
 draft: false
-image: /img/races/gand.jpeg
+image: /img/races/gand.jpg
 layout: race
 
 info:

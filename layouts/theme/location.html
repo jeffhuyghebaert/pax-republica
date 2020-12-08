@@ -28,8 +28,10 @@
             </div>
             <div class="col-md-4">
               <div class="card border-0 shadow info-card">
-                {{ with .Params.image }}
-                <img src="{{ . }}" class="card-img-top" alt="{{ $.Page.Title }}" />
+                {{ $image := .Resources.GetMatch "main.*" }}
+                {{ with $image }}
+                {{ $fitImage := .Fill "600x600 Top" }}
+                <img src="{{ $fitImage.RelPermalink }}" class="card-img-top" alt="{{ $.Page.Title }}" />
                 {{ end }}
                 <div class="card-header text-center bg-secondary text-light border-0"><b>{{ .Title }}</b></div>
                 {{ with .Params.system }}
@@ -100,13 +102,13 @@
               </div>
             </div>
           </div>
-          {{ range .Resources.ByType "image" }}
           <div class="row">
+            {{ range .Resources.ByType "image" }}
             <div class="col-4">
               <a href="{{ .Permalink | absURL }}"><img class="img-thumbnail" src="{{ .Permalink }}" /></a>
             </div>
+            {{ end }}
           </div>
-          {{ end }}
         </div>
       </div>
     </div>

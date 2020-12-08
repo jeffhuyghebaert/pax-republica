@@ -26,9 +26,11 @@
               <div class="row mb-5">
                 {{ range sort . }}
                 <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                  <div class="card border-0 bg-primary text-light mb-4">
-                    {{ with .Params.image }}
-                    <img src="{{ . }}" class="card-img-top" alt="{{ $.Page.Title }}" />
+                  <div class="card border-primary bg-primary text-light mb-4">
+                    {{ $image := .Resources.GetMatch "main.*" }}
+                    {{ with $image }}
+                    {{ $fitImage := .Fill "600x400 Top" }}
+                    <img src="{{ $fitImage.RelPermalink }}" class="card-img-top bg-white" alt="{{ $.Page.Title }}" />
                     {{ end }}
                     <div class="card-body text-center">
                       <a href="{{ lower .Permalink | relURL }}" class="text-white font-weight-bold stretched-link">{{ .Title }}</a>

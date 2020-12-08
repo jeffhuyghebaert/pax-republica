@@ -5,5 +5,8 @@ draft: false
 
 ---
 
-Addiction is the parasite in your brain that you must feed whether it costs you all your worldly goods, your family and your health. In the first stages, you might be taking spice or smoking nicotine sticks because you feel euphoric or more relaxed. You probably think that you have a handle on how much of the substance you consume but you develop a tolerance that requires more and more of it to get high. That high is better than anything else going on in your life you mistakenly think. Some addictions, if you live long enough, actually can wane with age, leaving its marks in impaired mental and physical functions. Penalty 1D+2 to Awareness and Reflex rolls.
-Addictions will likely affect the performance of Bounty Hunter, Freedom Fighter, Mercenary, Scavenger, Smuggler, Soldier, Swoop Racer, and Thief.
+You are afflicted with a crippling addiction, whether it is psychological or physical, and can't seem to break free of it. It may have started as a minor vice which didn't significantly interfere with your life, but by now it's a problem. You might not even realize that you have this addiction, but if you don't feed it regularly you will suffer the ill-effects of withdrawl.
+
+For every day you go without feeding your addiction, you suffer a 0D+1 penalty to all attributes, up to a maximum of 2D+0, or if your attribute reduces to 1D+0 total. If after one week you are still not able to feed your addiction, you will gain a Wounded injury level which will persist until you have fed your addiction.
+
+You may buy out this disadvantage for a cost of 30CP, however doing so will also reduce a random attribute by 0D+1, which you may mitigate by spending CP to immediately buy back at the regular cost.

@@ -5,6 +5,4 @@ draft: false
 
 ---
 
-You are quicker on your feet than other members of your species, and 
-
-Nimble and quick when you are out on the dance floor people take notice. If a thief, you don’t trip alarms that the average burglar would set off. If you fight with a sword or staff, you’re light enough on your feet to keep your opponent guessing as you dodge and attack. 1D+0 bonus to acrobatics, climb, brawl, dodge, melee, and leap.
+You are lighter on your feet than other members of your species, which makes you quicker and more nimble than average. You can move more quietly, and with greater finesse than others. You gain a 1D+0 bonus to Sneak in situations where moving silently is a relevant factor. You may choose one of Acrobatics, Dodge, or Leap to increase by 0D+1 in CharGen at no additional cost.

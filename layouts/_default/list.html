@@ -49,7 +49,7 @@
                     <img src="{{ . }}" class="card-img-top" alt="{{ $.Page.Title }}" />
                     {{ end }}
                     <div class="card-body font-weight-bold text-center">
-                      <a href="{{ lower .Permalink | relURL }}" class="text-secondary stretched-link">{{ .Title }}</a>
+                      <a href="{{ lower .Permalink | relURL }}" class="text-secondary stretched-link text-nowrap">{{ .Title }}</a>
                     </div>
                   </div>
                 </div>

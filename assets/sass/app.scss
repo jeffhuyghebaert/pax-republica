@@ -26,10 +26,10 @@ body {
 .main-header-image {
   height: 300px;
   width: 100%;
-  background: url('/img/coruscant.jpg');
+  background: url('/img/coruscant.png');
   background-size: cover;
   background-position-y: -300px;
-  
+  z-index:1000;
 }
 
 .intro-block {

@@ -9,9 +9,10 @@
           {{ range sort (where .Pages "Params.status" "active") "Title" }}
           <div class="col-md-2">
             <div class="card border-0 shadow profile-card mb-3">
-              {{ with (.Resources.GetMatch "headshot.*") }}
-              {{ $image := .Resize "x150" }}
-              <img src="{{ $image.RelPermalink }}" class="card-img-top" />
+              {{ $image := .Resources.GetMatch "headshot.*" }}
+              {{ with $image }}
+              {{ $fitImage := .Fill "600x600 Top" }}
+              <img src="{{ $fitImage.RelPermalink }}" class="card-img-top bg-white" alt="{{ $.Page.Title }}" />
               {{ else }}
               <div class="mx-auto profile-placeholder d-flex">
                 <span class="text-primary px-4 py-3">{{ .Params.initials }}</span>
@@ -37,11 +38,10 @@
           <div class="col-md-2">
             <div class="card border-0 shadow profile-card mb-3">
               <div class="card-body p-2 d-flex">
-                {{ with (.Resources.Match "headshot.*") }}
-                {{ $image := .Resize "x150" }}
-                <div class="profile-image-wrapper mx-auto d-flex">
-                  <img src="{{ $image.RelPermalink }}" />
-                </div>
+                {{ $image := .Resources.GetMatch "headshot.*" }}
+                {{ with $image }}
+                {{ $fitImage := .Fill "600x600 Top" }}
+                <img src="{{ $fitImage.RelPermalink }}" class="card-img-top bg-white" alt="{{ $.Page.Title }}" />
                 {{ else }}
                 <div class="mx-auto profile-placeholder d-flex justify-content-center align-items-center">
                   <div class="rounded-circle bg-secondary d-flex justify-content-center align-items-center">

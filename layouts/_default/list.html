@@ -33,7 +33,7 @@
                     <img src="{{ $fitImage.RelPermalink }}" class="card-img-top bg-white" alt="{{ $.Page.Title }}" />
                     {{ end }}
                     <div class="card-body text-center">
-                      <a href="{{ lower .Permalink | relURL }}" class="text-white font-weight-bold stretched-link">{{ .Title }}</a>
+                      <a href="{{ lower .Permalink | relURL }}" class="text-white font-weight-bold stretched-link text-nowrap">{{ .Title }}</a>
                     </div>
                   </div>
                 </div>

@@ -2,7 +2,7 @@
 title: "Bounty Hunters Guild"
 date: 2020-11-10T21:11:48-08:00
 draft: false
-image: /img/factions/bounty-hunter.jpeg
+image: bounty-hunter.jpeg
 summary: Capture by design, kill by necessity. Bounty Hunters track and capture targets across the galaxy at the behest of their employers; their independence from official Republic authorities gives them the freedom to track and apprehend their targets in any jurisdiction. The Guild offers many benefits to Hunters, for a small percentage of their bounty; the Guild helps match Hunters with targets, handles permits and licenses, and other legal matters are all quietly dealt with by Guild agents, allowing the Hunter to focus on what he does best -- Hunt.
 ---
 

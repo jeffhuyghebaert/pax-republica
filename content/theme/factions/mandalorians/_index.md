@@ -2,7 +2,7 @@
 title: "Mandalorians"
 date: 2020-11-14T17:40:36-08:00
 draft: false
-image: /img/factions/mandalorian.jpg
+image: mandalorian.jpg
 restricted: true
 summary: Mandalorians are not a species, they are a creed, and a way of life. Centuries ago, the Mandalorian-Jedi War rendered the surface of Mandalore all but uninhabitable, and the Mandalorians have remained largely isolated on their world since. Mandalorians in the greater galaxy stick to their own small clans; the Republic and the Jedi view those who leave Mandalore with the utmost skepticism, and most Mandalorian clans will go to great lengths to avoid them, sticking to the Outer Rim worlds, earning their way through bounty hunting, mercenary work, or other less legal means. Regardless of how they choose to survive in the Galaxy, all Mandalorians live by the Code.
 ---

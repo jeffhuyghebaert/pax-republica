@@ -46,4 +46,8 @@ Long ago, Tatooine was covered in oceans and rain forests, but through as-yet un
 ### Mos Espa
 Tatooine's largest city and de facto capital, Mos Espa is controlled by the Hutt Clans and their criminal syndicates. The majority of its citizens are poor individuals just trying to survive day to day. Most of the city is built from weathered natural stone, and most buildings have a domed roof with few or no windows. The streets are a winding maze with few markers or formal organization.
 
+### Mos Eisley Spaceport
+Mos Eisley spaceport is a large, bustling place with ships constantly arriving and departing at over three hundred landing pads around the city. All manner of goods both legal and illicit can be found for sale somewhere in town. The city's cantinas and bazaars are popular meeting places for those seeking to move cargo or passengers. Mos Eisley's buildings are typical for the world--low to the ground with domed roofs or open-top landing bays.
+
 ### Hutt Palace
+The Hutt Palace is a large sandrock and durasteel complex located at the fringes of the Northern Dune Sea. Composed of a central rotunda and a taller spire adjacent to it, the ridge-side retreat also features an underground hangar and maintenance bay. Deep in the structure's subterranean chambers is the throne room, which is situated atop a pit that could house some manner of large ravenous creature that is often used to seal the fate of those who dare cross the Hutts.

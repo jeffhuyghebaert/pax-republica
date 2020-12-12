@@ -10,7 +10,7 @@ header {
     text-shadow: 0 0 10px #000;
   }
   .nav .nav-item a.nav-link {
-    font-size: 20px;
+    font-size: 24px;
     text-shadow: 0 0 10px #000;
     &:hover {
       color: $warning!important;
@@ -26,9 +26,9 @@ body {
 .main-header-image {
   height: 300px;
   width: 100%;
-  background: url('/img/coruscant.png');
+  background: url('/img/header.jpg');
   background-size: cover;
-  background-position-y: -300px;
+  background-position-y: bottom;
   z-index:1000;
 }
 
@@ -55,7 +55,7 @@ body {
 }
 
 .mt-n150 {
-  margin-top: -150px;
+  margin-top: -100px;
 }
 
 .profile-placeholder {

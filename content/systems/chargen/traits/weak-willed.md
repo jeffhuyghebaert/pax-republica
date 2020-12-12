@@ -5,3 +5,4 @@ draft: false
 
 ---
 
+You're a bit of a coward, and generally lack confidence. You suffer a 1D+0 penalty to Willpower when opposing or resisting others, as well as a 1D+0 penalty to Lead.

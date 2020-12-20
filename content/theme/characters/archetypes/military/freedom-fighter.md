@@ -36,11 +36,8 @@ skills:
     brawl: 3
     grip: 1
 
+traits:
+  - Iron Will
+  - Code of Honor
 ---
-Freedom Fighters are those who fight for the rights and/or independence of a people or nation through armed struggle. Sometimes called Rebels, Revolutionaries, or even terrorists (depending who's doing the talking), Freedom Fighters seek to right injustices and usher in a better way of life for themselves, their compatriots, and those who cannot stand up for themselves. Freedome Fighters come from all walks of life, whether they were trained in the military and became disillusioned with the system, or a simple farmer who experienced injustice first-hand at the boot of their oppressors.
-
-
-**Suggested Traits**
-
-- [Iron Will](/systems/chargen/traits/iron-will)
-- [Code of Honor](/systems/chargen/traits/code-of-honor)
+Freedom Fighters are those who fight for the rights and/or independence of a people or nation through armed struggle. Sometimes called Rebels, Revolutionaries, or even terrorists (depending who's doing the talking), Freedom Fighters seek to right injustices and usher in a better way of life for themselves, their compatriots, and those who cannot stand up for themselves. Freedom Fighters come from all walks of life, whether they were trained in the military and became disillusioned with the system, or a simple farmer who experienced injustice first-hand at the boot of their oppressors.

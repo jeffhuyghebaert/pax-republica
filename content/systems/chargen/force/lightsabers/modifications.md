@@ -6,7 +6,7 @@ draft: false
 
 When constructing a lightsaber, a Jedi may opt to include certain non-standard features in the hilt of the blade. While these modification cannot increase the damage the lightsaber is capable of inflicting, they may have other aesthetic or practical effects. Because these modifications are part of the physical casing, they are installed using the Weapon Repair skill, rather than Jedi Lore.
 
-**Variable Length**: For each additional length setting for the lightsaber blade, the roll a Difficult Weapon Repair.
+**Variable Length**: For each additional length setting for the lightsaber blade, roll a Difficult Weapon Repair.
 
 **Cell Recognizer**: Add a small sensor array (800 credits) and recognition chip (350 credits) to the handle of the saber, which reads the cell pattern of the wielder. If the cell pattern does not match its list of recognized users, the weapon shuts down and any failsafe devices are activated (electric shock, audio alarm, alert via comlink, etcetera). An additional Difficult Weapon Repair roll is required to install this feature.
 

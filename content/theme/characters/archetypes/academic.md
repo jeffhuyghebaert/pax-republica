@@ -37,12 +37,11 @@ skills:
   reflex:
     brawl: 1
     dodge: 1
+
+traits:
+  - Eidetic Memory
 ---
 
 Academics are the educated elite, usually focusing on one or two areas in which they become renowned experts. They are scientists, historians, writers, archaeologists, and lawyers, among myriad other professions.
 
 Academics come in all shapes and sizes; some are quiet and reserved, preferring the company of books to people, while others are quirky and excitable; whatever their personality, academics share a love for their chosen field, and are endlessly curious and hungry to learn more about whatever captures their interest.
-
-**Suggested Traits**
-
-- [Eidetic Memory](/systems/chargen/traits/eidetic-memory)

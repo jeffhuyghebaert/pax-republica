@@ -32,13 +32,12 @@ skills:
     tech operation: 2
   reflex:
     contort: 1
+
+traits:
+  - Artistry
+  - Ambidextrous
 ---
 
 Since a young age, you've had a creative instinct, and a knack for creating visually striking works of art, be they paintings, drawings, or sculptures. Over the years, you've honed this natural talent into a high degree of expertise. Art requires creativity, patience, and the ability to visualize your completed work within the blank canvas, uncarved block, or empty space.
 
 Artists come from all walks of life, and not every one pursues the creation of their art as a profession on its own; the artist may work for a business creating advertising or other media, she may work with the authorities as a sketch artist, or may go the other way and work for less reputable beings as a forger.
-
-**Suggested Traits**
-
-- [Artistry](/systems/chargen/traits/artistry)
-- [Ambidextrous](/systems/chargen/traits/ambidextrous)

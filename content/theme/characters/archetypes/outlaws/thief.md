@@ -37,9 +37,7 @@ skills:
   reflex:
     brawl: 1
     
+traits:
+  - Kleptomaniac
 ---
 A thief is as its name implies--someone who takes what is not his, whether it's money, materials, or even people. This type of work usually requires a high level of stealth for slipping past undetected, or being able to trick others into believing lies. And in the case of getting caught...having a quick way of either evading arrest or if necessary, fending off pursuers. 
-
-**Suggested Traits**
-
-- [Kleptomaniac](/systems/chargen/traits/kleptomaniac)

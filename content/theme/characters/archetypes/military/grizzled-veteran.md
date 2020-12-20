@@ -37,9 +37,9 @@ skills:
   reflex:
     melee: 3
     brawl: 3
-    
+
+traits:
+  - High Pain Threshold
+  - Commanding Presence
 ---
 You were once a soldier, but that time of your life is over, or so you think. You retired, or you were forced out, or your aging body just didn't give you a choice. You've seen everything in war from the greatest acts of bravery to the basest of atrocities, and with that experience comes skill and wisdom, both of which make your insight and advice invaluable to the younger generation. At least, you're inclined to think so. Because of your experiences, you might suffer some lasting injuries (took a blaster to the knee, perhaps), or some post-traumatic stress which makes it challenging to integrate back into civilian life.
-
-- [High Pain Threshold](/systems/chargen/traits/high-pain-threshold)
-- [Commanding Presence](/systems/chargen/traits/commanding-presence)

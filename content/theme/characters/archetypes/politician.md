@@ -32,11 +32,9 @@ skills:
     intimidate: 1
     perform: 2
   reflex:
-    
+
+traits:
+  - Natural Charisma
+  - Social Chameleon
 ---
 A politician is an individual who holds an office in some government or other, which usually comes with leadership and negotiation skills, as well as some knowledge of history and culture. 
-
-**Suggested Traits**
-
-- [Natural Charisma](/systems/chargen/traits/natural-charisma)
-- [Social Chameleon](/systems/chargen/traits/social-chameleon)

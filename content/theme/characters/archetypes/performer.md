@@ -35,14 +35,13 @@ skills:
   reflex:
     acrobatics: 4
     leap: 2
+
+traits:
+  - Natural Charisma
+  - Attractive
+  - Artistry
 ---
 
 Performers are driven to practice their craft for an audience, and crave the spotlight, attention, and adulation of their fans. A performer may practice any kind of performance art, be it acting, music, or public speaking, and often a true performer is skilled in multiple disciplines. Regardless of the media of their art, the performer has an uncanny ability to speak to their audience through their performance, able to communicate ideas that may elude more direct means.
 
 Many performers find themselves working in the entertainment industry, but performers can find themselves useful in any number of professions, particularly those where persuasive interpersonal communication is important. Whether this is telling the truth in a convincing, appealing way, or using their skills to decieve and manipulate, is up the performer.
-
-**Suggested Traits**
-
-- [Natural Charisma](/systems/chargen/traits/natural-charisma)
-- [Attractive](/systems/chargen/traits/attractive)
-- [Artistry](/systems/chargen/traits/artistry)

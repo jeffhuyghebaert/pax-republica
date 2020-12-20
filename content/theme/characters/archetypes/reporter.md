@@ -34,12 +34,10 @@ skills:
     perform: 4
   reflex:
     ride: 2
+
+traits:
+  - Natural Charisma
+  - Attractive
 ---
 
 A reporter's job is to inform citizens of the events going on around them. They love telling a good story, and are usually charismatic and attractive as they are accustomed to addressing large numbers of people at once. While some just stick to the straightforward and obvious, other more daring and ambitious types may venture into danger for the sake of discovering the truth. Some stay in the comfort of their offices, while others enjoy telling the story out on the field, right as it's happening. 
-
-**Suggested Traits**
-
-- [Natural Charisma](/systems/chargen/traits/natural-charisma)
-- [Attractive](/systems/chargen/traits/attractive)
----

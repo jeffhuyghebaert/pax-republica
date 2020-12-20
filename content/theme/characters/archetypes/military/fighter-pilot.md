@@ -17,10 +17,10 @@ skills:
     track: 3
   coordination:
     pilot: 4
+    gunnery: 4
     shoot: 3
     drive: 3
   knowledge:
-    investigate: 2
     tech operation: 3
     starship repair: 3
     tech operation: 2
@@ -36,8 +36,9 @@ skills:
     brawl: 1
     dodge: 1
     melee: 1
+
+traits:
+  - Stick Jockey
 ---
 
 Fighter pilots have a lust for action and adventure, and the skills to match. They are also great for controlling vehicles of all sorts in general, although their specialty is in aerial dogfighting. 
-
-- [Stick Jockey](/systems/chargen/traits/stick-jockey)

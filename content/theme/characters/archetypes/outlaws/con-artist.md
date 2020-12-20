@@ -35,10 +35,9 @@ skills:
   reflex:
     brawl: 1
 
+traits:
+  - Natural Charisma
+  - Habitual Liar
+
 ---
 A Con Artist is in the business of fooling others into believing something false that allows him or her some kind of gain, usually money or resources, but sometimes information. False advertising, sham events, and fake prize winnings are just a few examples of methods often employed by con artists. These individuals must be charismatic and good at getting others to trust them quickly and act impulsively, as well as skilled at picking out the most guillable targets. 
-
-**Suggested Traits**
-
-- [Natural Charisma](/systems/chargen/traits/natural-charisma)
-- [Habitual Liar](/systems/chargen/traits/habitual-liar)

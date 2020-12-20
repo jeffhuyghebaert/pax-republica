@@ -16,6 +16,16 @@
             <div class="col-md-8">
               <div class="mb-5">
                 {{ .Content }}
+                {{ with .Params.traits }}
+                <h4>Suggested Traits</h4>
+                <ul>
+                  {{ range . }}
+                  <li>
+                    <a href="/systems/chargen/traits/{{ urlize . }}">{{ title . }}</a>
+                  </li>
+                  {{ end }}
+                </ul>
+                {{ end }}
               </div>
             </div>
             <div class="col-md-4">

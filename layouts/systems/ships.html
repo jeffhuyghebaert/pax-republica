@@ -1,0 +1,151 @@
+{{ define "main" }}
+<div class="screen"></div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2 d-none d-md-block">
+      {{- partial "sidebar.html" . }}
+    </div>
+    <div class="col-md-10 col">
+      <div class="card shadow border-0 mt-n150 mb-5">
+        <div class="card-header d-flex justify-content-between align-items-center">
+          <h3 class="m-0">{{ .Title }}</h3>
+          <span class="font-italic"><small>Updated {{ .Date.Format "Jan 2, 2006" }}</small></span>
+        </div>
+        <div class="card-body">
+          {{ with .Content }}
+          {{ . }}
+          <hr />
+          {{ end }}
+          <div class="row">
+            <div class="col-md-6">
+              <form>
+                <div class="form-group row mb-3">
+                  <label for="class" class="col-sm-3 col-form-label">Ship Class:</label>
+                  <div class="col-sm-7">
+                    <select class="form-control" id="class">
+                      <option value="starfighter">Starfighter</option>
+                      <option value="transport">Transport/Freighter</option>
+                      <option value="military">Military-Grade</option>
+                    </select>
+                  </div>
+                  
+                </div>
+                <div class="form-group row mb-3">
+                  <label for="size" class="col-sm-3 col-form-label">Size:</label>
+                  <div class="col-sm-7 my-auto">
+                    <input type="range" class="custom-range my-auto" value="1" min="1" max="15" id="size" />
+                  </div>
+                  <div class="col-sm-2">1 meter</div>
+                </div>
+                <div class="form-group row mb-3">
+                  <label for="crew" class="col-sm-3 col-form-label">Crew:</label>
+                  <div class="col-sm-7 my-auto">
+                    <input type="range" class="custom-range my-auto" value="1" min="1" max="20" id="crew" />
+                  </div>
+                  <div class="col-sm-2">1</div>
+                </div>
+                <div class="form-group row mb-3">
+                  <label for="passengers" class="col-sm-3 col-form-label">Passengers:</label>
+                  <div class="col-sm-7 my-auto">
+                    <input type="range" class="custom-range my-auto" value="1" min="1" max="20" id="passengers" />
+                  </div>
+                  <div class="col-sm-2">1</div>
+                </div>
+                <div class="form-group row mb-3">
+                  <label for="consumables" class="col-sm-3 col-form-label">Consumables:</label>
+                  <div class="col-sm-7">
+                    <select class="form-control" id="consumables">
+                      <option value="3">3 Days</option>
+                      <option value="7">1 Week</option>
+                      <option value="14">2 Weeks</option>
+                      <optionn value="21">3 Weeks</optionn>
+                      <option value="30">1 Month</option>
+                      <option value="60">2 Months</option>
+                      <option value="90">3 Months</option>
+                      <option value="180">6 Months</option>
+                      <option value="365">1 Year</option>
+                    </select>
+                  </div>
+                </div>
+                
+                <div class="form-group row mb-3">
+                  <label for="cargo" class="col-sm-3 col-form-label">Cargo Capacity:</label>
+                  <div class="col-sm-7 my-auto">
+                    <input type="range" class="custom-range my-auto" value="0" min="0" max="300" id="cargo" />
+                  </div>
+                  <div class="col-sm-2">0 Tons</div>
+                </div>
+                <div class="form-group row mb-3">
+                  <label for="sublight" class="col-sm-3 col-form-label">Sublight Speed:</label>
+                  <div class="col-sm-7 my-auto">
+                    <input type="range" class="custom-range my-auto" value="1" min="1" max="14" id="sublight" />
+                  </div>
+                  <div class="col-sm-2">1</div>
+                </div>
+                <div class="form-group row mb-3">
+                  <label for="atmo" class="col-sm-3 col-form-label">Atmospheric Speed:</label>
+                  <div class="col-sm-7 my-auto">
+                    <input type="range" class="custom-range my-auto" value="1" min="1" max="14" id="atmo" />
+                  </div>
+                  <div class="col-sm-2">1</div>
+                </div>
+                <div class="form-group row mb-3">
+                  <label for="maneuver" class="col-sm-3 col-form-label">Maneuverability:</label>
+                  <div class="col-sm-7 my-auto">
+                    <input type="range" class="custom-range my-auto" value="0" min="0" max="12" id="maneuver" />
+                  </div>
+                  <div class="col-sm-2 my-auto">0</div>
+                </div>
+                <div class="form-group row mb-3">
+                  <label for="hull" class="col-sm-3 col-form-label">Hull Rating:</label>
+                  <div class="col-sm-7">
+                    <select class="form-control" id="class">
+                      <option value="1">1D+0</option>
+                      <option value="2">2D+0</option>
+                      <option value="3">3D+0</option>
+                      <option value="4">4D+0</option>
+                      <option value="5">5D+0</option>
+                      <option value="6">6D+0</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group row mb-3">
+                  <label for="shield" class="col-sm-3 col-form-label">Shield Rating:</label>
+                  <div class="col-sm-7">
+                    <select class="form-control" id="class">
+                      <option value="0">No Shields</option>
+                      <option value="1">1D+0</option>
+                      <option value="2">2D+0</option>
+                      <option value="3">3D+0</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group row mb-3">
+                  <label for="weapon-1" class="col-sm-3 col-form-label">Weapon Slot 1</label>
+                  <div class="col-sm-7">
+                    <select class="form-control" id="weapon-1">
+                      <option value="light-laser-cannon">Light Laser Cannon</option>
+                    </select>
+                  </div>
+                </div>
+                <button class="btn btn-primary">+ Add Weapon Slot</button>
+              </form>
+            </div>
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-header">
+                  Your ship
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
+{{ end }}

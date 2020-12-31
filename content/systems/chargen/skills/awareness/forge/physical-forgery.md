@@ -4,4 +4,4 @@ date: 2020-11-14T11:50:10-08:00
 draft: false
 ---
 
-Physical forgery usually doesn't involve computers, but imitating the handwriting or signature of another person in order to trick others into believing a fallacy about that person.
+A specialization of Forgery which focuses on creating convincing physical replications of documents or items, or the ability to make fraudulent changes to existing artifacts without arousing suspicion.
